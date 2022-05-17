@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Head from "next/head";
 import About from '../components/About';
 import Community from '../components/community';
 import Footer from '../components/footer';
@@ -10,6 +10,9 @@ import MainHero from '../components/MainHero';
 const App = () => {
   return (
     <div className="bg-background">
+      <Head>
+        <title>Credore</title>
+      </Head>
       <Header />
       <MainHero />
       <LazyShow>

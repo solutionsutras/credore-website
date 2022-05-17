@@ -8,15 +8,15 @@ function Community() {
         <div className="flex gap-10 justify-center">
           <a
             className="p-3 rounded-lg text-3xl"
-            href="https://twitter.com/CredoreXYZ"
+            href="https://github.com/credorelabs"
             target="_blank"
             rel="noreferrer"
-          >
+            >
             <FaGithub />
           </a>
           <a
             className="p-3 rounded-lg text-3xl"
-            href="https://github.com/credorelabs"
+            href="https://twitter.com/CredoreXYZ"
             target="_blank"
             rel="noreferrer"
           >
