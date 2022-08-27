@@ -16,7 +16,7 @@ const MainHero = () => {
           </p>
         </div>
         <div className="flex-1">
-          <img src="/assets/images/Asset 34.svg" alt="" className="w-full" />
+          <img src="/assets/images/trade_zkcredore.svg" alt="" className="w-full" />
         </div>
       </div>
     </main>
