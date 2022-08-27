@@ -11,6 +11,17 @@ const About = () => {
     The lack of adoption of data standards, data privacy and on how trade data are exchanged, combined with an actual absence of standards, significantly hinder the seamless data flow from one end of the supply chain to the other. This has diminished efficiency gains along trade finance and documents exchange and has weighed heavily on companies, in particular small businesses.
 
       </p>
+    
+       <h4 className="text-6xl font-bold my-10">Why Credore?</h4>
+    <p className="my-10 text-xl mb-28">
+       
+    There is a need to move digitization beyond digital documents (e.g., PDF) The opportunity exists to enable more effective, automated information sharing and reuse within the domain by enabling all parties to speak the same language.
+<br />
+  Credore provides digitalization of existing standards to help drive adoption, identify potential gaps and promote interoperability. Its objective is to equip every trade finance participant, both banks and importer/exporter, with some of the most notable and widely used standards to help push trade digitalization and document exchange to the next level using blockchain and ZKP-Zero Knowledge Proof technology.
+
+    
+      </p>
+    
     </div>
   );
 };
