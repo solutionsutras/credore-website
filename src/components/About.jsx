@@ -12,7 +12,7 @@ const About = () => {
 
       </p>
     
-       <h4 className="text-6xl font-bold my-10">Why Credore?</h4>
+       <h3 className="text-6xl font-bold my-10">What is Credore?</h3>
     <p className="my-10 text-xl mb-28">
        
     There is a need to move digitization beyond digital documents (e.g., PDF) The opportunity exists to enable more effective, automated information sharing and reuse within the domain by enabling all parties to speak the same language.
