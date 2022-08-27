@@ -9,12 +9,10 @@ const MainHero = () => {
             Blockchain Powered Paperless Trade Finance Infrastructure With Privacy
           </h3>
           <p className="text-2xl text-gray-200 mt-6">
-            Investors can earn non-speculative sustainable yields against real
-            world assets.
+           Confidence in a set of independent and trusted contractual rules
           </p>
           <p className="text-2xl text-gray-200 mt-6">
-            Borrow against real world assets and create your credit history on
-            blockchain.
+           Digital and Blockchain Technology are Intertwining Trade and Creating interoperability
           </p>
         </div>
         <div className="flex-1">
