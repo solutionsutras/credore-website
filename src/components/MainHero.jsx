@@ -5,9 +5,9 @@ const MainHero = () => {
     <main className="p-28 bg-[#29564B]">
       <div className="flex gap-10 my-10 items-center justify-center">
         <div className="flex-1">
-          <h5 className="text-6xl font-extrabold text-white">
+          <h3 className="text-3xl font-extrabold text-white">
             Blockchain Powered Paperless Trade Finance Infrastructure With Privacy
-          </h5>
+          </h3>
           <p className="text-2xl text-gray-200 mt-6">
             Investors can earn non-speculative sustainable yields against real
             world assets.
