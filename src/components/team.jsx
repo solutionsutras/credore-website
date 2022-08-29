@@ -1,4 +1,5 @@
-
+const Team = () => {
+  return (
                 <div class="container flex justify-center mx-auto pt-16">
                     <div>
                         <p class="text-gray-500 dark:text-gray-200 text-lg text-center font-normal pb-3">BUILDING TEAM</p>
@@ -197,4 +198,6 @@
                         </div>
                     </div>
                 </div>
-            
+            );
+};
+export default Team; 
