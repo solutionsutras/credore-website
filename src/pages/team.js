@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from "next/head";
-import About from '../components/About';
+import Team from '../components/Team';
 import Community from '../components/community';
 import Footer from '../components/footer';
 import Header from '../components/Header';
@@ -14,9 +14,8 @@ const App = () => {
         <title>Credore</title>
       </Head>
       <Header />
-      <MainHero />
-      <LazyShow>
-        <About />
+      
+        <Team />
       </LazyShow>
       <LazyShow>
         <Community />
