@@ -9,7 +9,7 @@ const Team = () => {
       <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar">
+                  <picture class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar">
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -43,7 +43,7 @@ const Team = () => {
           </div> 
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Avatar">
+                  <picture class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Avatar">
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -77,7 +77,7 @@ const Team = () => {
           </div> 
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="Michael Avatar">
+                  <picture class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="Michael Avatar">
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -111,7 +111,7 @@ const Team = () => {
           </div> 
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png" alt="Sofia Avatar">
+                  <picture class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png" alt="Sofia Avatar">
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
