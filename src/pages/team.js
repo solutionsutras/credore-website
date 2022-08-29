@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from "next/head";
-import Team from '../components/Team';
+import Team from '../components/team';
 import Community from '../components/community';
 import Footer from '../components/footer';
 import Header from '../components/Header';
