@@ -1,7 +1,10 @@
 const Team = () => {
   return (
-               <picture  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png" alt="Sofia Avatar" >
-           
+             
+           <picture>
+      
+        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png" alt="Landscape picture" />
+      </picture>
   </picture>
   );
 };
