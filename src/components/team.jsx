@@ -2,8 +2,8 @@ const Team = () => {
   return (
              
            <picture>
-     
-                <img src="/assets/images/trade_zkcredore.svg" alt="" className="w-full" />
+       <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+             
       </picture>
   
   );
