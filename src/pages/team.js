@@ -14,7 +14,7 @@ const App = () => {
         <title>Credore</title>
       </Head>
       <Header />
-      
+       <LazyShow>
         <Team />
       </LazyShow>
       <LazyShow>
