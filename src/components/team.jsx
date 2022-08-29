@@ -150,13 +150,14 @@ const Team = () => {
                       </li>
                   </ul>
               </div>
-     <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+   
+    
+          </div>  
+      <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
     
     <h1>hiiiiii</h1>
           </div>
     
-    
-          </div>  
       </div>  
   </div>
 </section>
