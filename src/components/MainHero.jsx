@@ -1,25 +1,36 @@
-import React from 'react';
+import React from "react";
+import FactsnFigures from "./FactsnFigures";
 
 const MainHero = () => {
   return (
-    <main className="p-28 bg-[#29564B]">
-      <div className="flex gap-10 my-10 items-center justify-center">
-        <div className="flex-1">
-          <h3 className="text-3xl font-extrabold text-white">
-            Blockchain Powered Paperless Trade Finance Infrastructure With Privacy
-          </h3>
-          <p className="text-2xl text-gray-200 mt-6">
-           Confidence in a set of independent and trusted contractual rules
-          </p>
-          <p className="text-2xl text-gray-200 mt-6">
-           Digital and Blockchain Technology are Intertwining Trade and Creating interoperability
-          </p>
+    <section className="section hero-section">
+      <div className="container flex flex-col gap-[70px]">
+        <div className="homeBannerSection">
+          <div className="banner-details">
+            <h1 className="hero-heading font-medium">
+              Transforming{" "}
+              <span className="font-bold">
+                Financial Supply Chain Management
+              </span>{" "}
+              with <span className="font-bold">Blockchain Technology</span>
+            </h1>
+            <div>
+              <button className="knowMore btn-primary">Know More</button>
+            </div>
+          </div>
+          {/* <div className="bannerImage">
+            <figure>
+              <img
+                src="../assets/images/home-banner.png"
+                alt="Banner Image"
+                className="img-responsive"
+              />
+            </figure>
+          </div> */}
         </div>
-        <div className="flex-1">
-          <img src="/assets/images/trade_zkcredore.svg" alt="" className="w-full" />
-        </div>
+        <FactsnFigures/>
       </div>
-    </main>
+    </section>
   );
 };
 

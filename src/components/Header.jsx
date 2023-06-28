@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import Link from 'next/link';
+import Link from "next/link";
 
-import Form from './form';
+import Form from "./RequestModal";
 
 const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,14 +17,20 @@ const Menu = () => {
 
   return (
     <>
-      <nav className="nav flex flex-wrap items-center justify-between p-10 py-6">
-        <div className="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
+      <nav className="nav flex flex-wrap items-center justify-between p-10 py-4">
+        <div className="flex flex-no-shrink items-center mr-6 py-2 text-grey-darkest">
           <Link href="/">
-            <a className="font-semibold text-xl tracking-tight w-60">
+            <a className="font-semibold tracking-tight w-60">
               <img
                 src="/assets/images/Logo.png"
                 alt="logo"
-                className="w-full"
+                className="logo"
               />
             </a>
           </Link>
@@ -38,32 +44,47 @@ const Menu = () => {
           <span className="navicon bg-grey-darkest flex items-center relative"></span>
         </label>
 
-        <ul className="menu flex justify-end list-reset m-0 w-full md:w-auto items-center">
+        <ul className="menu flex justify-end list-reset m-0 w-full md:w-auto items-center text-sm">
+          
           <li className="">
-            <Link href="/#about">
-              <a
-                className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker text-xl"
-              >
+            <Link href="/about_us">
+              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
                 About
               </a>
             </Link>
           </li>
 
           <li className="">
+            <Link href="/#solutions">
+              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
+                Solutions
+              </a>
+            </Link>
+          </li>
+
+          <li className="">
+            <Link href="https://docs.credore.xyz/">
+              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
+                Resources
+              </a>
+            </Link>
+          </li>
+
+          <li className="">
             <a
-              href="https://docs.credore.xyz/"
-              className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker text-xl"
+              href="/#support"
+              className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker"
             >
-              Docs
+              Support
             </a>
           </li>
           <li className="">
             <button
-              className="ml-3 p-4 py-2 text-base flex-shrink-0 text-white bg-[#29564B]"
+              className="ml-3 p-4 py-1 text-sm flex-shrink-0 text-white bg-[#f15928] font-medium text-xsm"
               type="button"
               onClick={openModal}
             >
-              Early Access
+              Request Demo
             </button>
           </li>
         </ul>

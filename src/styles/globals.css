@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --color-primary: #ec4755;
   --color-secondary: #a12c34;
@@ -13,12 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 @media (max-width: 767px) {
   .navicon {
     width: 1.125em;
-    height: .125em;
+    height: 0.125em;
   }
 
   .navicon::before,
@@ -27,9 +24,9 @@ html {
     position: absolute;
     width: 100%;
     height: 100%;
-    transition: all .2s ease-out;
-    content: '';
-    background: #3D4852;
+    transition: all 0.2s ease-out;
+    content: "";
+    background: #3d4852;
   }
 
   .navicon::before {

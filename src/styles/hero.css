@@ -1,0 +1,32 @@
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 50%;
+  height: 100%;
+  pointer-events: none;
+  padding-left: 4rem;
+}
+
+.hero-sub-title {
+  margin: 0 auto;
+  padding: 0;
+  text-transform: uppercase;
+  width: 90%;
+  /* text-align: center; */
+  font-size: 2.2rem;
+}
+
+.hero-title {
+  margin: 24px auto 0;
+  padding: 0;
+  width: 90%;
+  /* text-align: center; */
+  font-size: 1.75rem;
+}
+
+.hero-title span {
+  text-transform: uppercase;
+  font-style: italic;
+}
