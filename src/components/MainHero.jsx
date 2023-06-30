@@ -4,7 +4,7 @@ import FactsnFigures from "./FactsnFigures";
 const MainHero = () => {
   return (
     <section className="section hero-section">
-      <div className="container flex flex-col gap-[70px]">
+      <div className="container flex flex-col gap-[20px]">
         <div className="homeBannerSection">
           <div className="banner-details">
             <h1 className="hero-heading font-medium">
@@ -14,7 +14,7 @@ const MainHero = () => {
               </span>{" "}
               with <span className="font-bold">Blockchain Technology</span>
             </h1>
-            <div>
+            <div className="mt-5">
               <button className="knowMore btn-primary">Know More</button>
             </div>
           </div>

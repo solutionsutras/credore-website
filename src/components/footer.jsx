@@ -18,7 +18,7 @@ function Footer() {
       <div className="container">
         <div className="linksSectn">
           <div className="quickLinks">
-            <div className="heading">Quick Links</div>
+            <h1 className="heading">Quick Links</h1>
             <ul className="linksBx">
               <li>
                 <a href="#">Contact Us</a>
@@ -41,16 +41,16 @@ function Footer() {
             </ul>
           </div>
           <div className="solutionsLinks">
-            <div className="heading">Solutions</div>
+            <h1 className="heading">Solutions</h1>
             <ul className="linksBx">
               <li>
-                <a href="#">Lorem Ipsum is simply dummy</a>
+                <a href="#">Smart contracts</a>
               </li>
               <li>
-                <a href="#">It is a long established fact</a>
+                <a href="#">Paperless trade finance</a>
               </li>
               <li>
-                <a href="#">that a reader will be distracted</a>
+                <a href="#">Process automation</a>
               </li>
               <li>
                 <a href="#">by the readable content </a>
@@ -60,34 +60,40 @@ function Footer() {
               </li>
             </ul>
           </div>
+
           <div className="readyToGoBx">
-            <div className="heading">Ready To Go Truly Paperless?</div>
+            <h1 className="heading">Ready To Go Truly Paperless?</h1>
             <p>
               Get a free personalised demo and see how easy it to manage your
               paperless trade finance.
             </p>
             <div>
               <button
-                className="ml-3 p-4 py-1 text-sm flex-shrink-0 text-white bg-[#f15928] font-medium text-xsm"
+                className="ml-3 p-4 py-2 text-sm flex-shrink-0 text-white bg-[#f15928] font-medium text-xsm rounded-sm"
                 type="button"
                 onClick={openModal}
               >
                 Request Demo
               </button>
             </div>
-          </div>
-        </div>
 
-        <div>
-          <div className="receiveUpdates flex items-center gap-4 py-4 justify-center">
-            Receive Updates and News from Credore
-            <input
-              type="text"
-              class="p-2 py-1 border-1 md:round border-[#F15928] outline-none text-sm br-5"
-              placeholder="Enter Your Email"
-              value=""
-            />
-            <button class="px-4 py-1 text-sm flex-shrink-0 text-F15928 bg-[#FFF]" type="submit">Subscribe</button>
+            <div>
+              <h1 className="heading mt-5">Receive Updates and News from Credore</h1>
+              <div className="receiveUpdates flex items-center gap-4 py-0">
+                <input
+                  type="text"
+                  className="p-2 py-1 border-1 md:round border-[#F15928] outline-none text-sm br-5"
+                  placeholder="Enter Your Email"
+                  value=""
+                />
+                <button
+                  className="px-4 py-1 text-sm flex-shrink-0 text-F15928 bg-[#FFF]"
+                  type="submit"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -106,52 +112,6 @@ function Footer() {
               </li>
               <li>
                 <a href="#">Legal</a>
-              </li>
-            </ul>
-            <ul className="socialMediaLinks">
-              <li>
-                <a href="#">
-                  <figure>
-                    <img
-                      src="assets/images/linkedin-logo.png"
-                      alt="linkedin-logo"
-                      className="img-responsive"
-                    />
-                  </figure>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <figure>
-                    <img
-                      src="assets/images/twitter-logo.png"
-                      alt="twitter-logo"
-                      className="img-responsive"
-                    />
-                  </figure>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <figure>
-                    <img
-                      src="assets/images/youtube-logo.png"
-                      alt="youtube-logo"
-                      className="img-responsive"
-                    />
-                  </figure>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <figure>
-                    <img
-                      src="assets/images/facebook-logo.png"
-                      alt="facebook-logo"
-                      className="img-responsive"
-                    />
-                  </figure>
-                </a>
               </li>
             </ul>
           </div>

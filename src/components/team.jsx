@@ -7,10 +7,10 @@ const Team = () => {
           <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collectionv open-source web components and elements built with the utility classNamees from Tailwind</p>
       </div> 
       <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-          <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+          <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                    <picture>
-                  <img classNamename="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+                  <img classNamename="w-full rounded-md sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
                    </picture>
               </a>
               <div className="p-5">
@@ -43,10 +43,10 @@ const Team = () => {
                   </ul>
               </div>
           </div> 
-          <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+          <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                    <picture>
-                  <img classNamename="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Avatar"/>
+                  <img classNamename="w-full rounded-md sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Avatar"/>
                    </picture>
               </a>
               <div className="p-5">
@@ -79,10 +79,10 @@ const Team = () => {
                   </ul>
               </div>
           </div> 
-          <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+          <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#"> 
                <picture>
-                  <img classNamename="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="Michael Avatar"/>
+                  <img classNamename="w-full rounded-md sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="Michael Avatar"/>
                    </picture>
               </a>
               <div className="p-5">
@@ -115,10 +115,10 @@ const Team = () => {
                   </ul>
               </div>
           </div> 
-          <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+          <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                    <picture>
-                  <img classNamename="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png" alt="Sofia Avatar" />
+                  <img classNamename="w-full rounded-md sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png" alt="Sofia Avatar" />
                    </picture>
               </a>
               <div className="p-5">
@@ -156,7 +156,7 @@ const Team = () => {
      
     
       </div>  
-     <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+     <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
     
     <h1>hiiiiii</h1>
           </div>

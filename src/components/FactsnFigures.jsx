@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const FactsnFigures = () => {
   return (
@@ -6,11 +7,16 @@ const FactsnFigures = () => {
       <div className="container">
         <ul className="facts-section">
           <li>
-            <div className="flex benefits items-center gap-2 p-2">
-              <img src="../assets/images/benefits/streamline-operations.png" />
+            <div className="flex benefits items-center p-2 gap-2">
+              <Image
+                src="/assets/images/benefits/streamline-operations.png"
+                height={60}
+                width={60}
+                alt="Streamline Operations"
+              />
               <div>
                 <label>Streamline</label>
-                <div className="text">Operations</div>
+                <h1 className="text">Operations</h1>
               </div>
             </div>
             <div>
@@ -23,29 +29,39 @@ const FactsnFigures = () => {
           </li>
 
           <li>
-            <div className="flex benefits items-center gap-2 p-2">
-              <img src="../assets/images/benefits/enhance-security.png" />
+            <div className="flex benefits items-center p-2 gap-2">
+              <Image
+                src="/assets/images/benefits/enhance-security.png"
+                height={60}
+                width={60}
+                alt="Enhanced Security"
+              />
               <div>
                 <label>Enhanced</label>
-                <div className="text">Security</div>
+                <h1 className="text">Security</h1>
               </div>
             </div>
             <div>
               <p>
                 Our Decntralized Blockchain Platform enables distribution of
                 data across networks, ensuring no single point of failure. This
-                structure significantly enhances data security and
-                reduces vulnerabilities.
+                structure significantly enhances data security and reduces
+                vulnerabilities.
               </p>
             </div>
           </li>
 
           <li>
-            <div className="flex benefits items-center gap-2 p-2">
-              <img src="../assets/images/benefits/drive-efficiency.png" />
+            <div className="flex benefits items-center p-2 gap-2">
+              <Image
+                src="/assets/images/benefits/drive-efficiency.png"
+                height={60}
+                width={60}
+                alt="Drive Efficiency"
+              />
               <div>
                 <label>Drives</label>
-                <div className="text">Efficiency</div>
+                <h1 className="text">Efficiency</h1>
               </div>
             </div>
             <div>

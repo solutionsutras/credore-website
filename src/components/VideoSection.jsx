@@ -4,7 +4,7 @@ const VideoSection = () => {
   return (
     <section className="section" >
     <div className="container">
-        <iframe src="https://www.youtube.com/embed/VtplLPDcI88" title="YouTube video player" frameborder="0" className="aboutCredore" ></iframe>
+        <iframe src="https://www.youtube.com/embed/VtplLPDcI88" title="YouTube video player" frameBorder="0" className="aboutCredore" ></iframe>
     </div>
 </section>
   );

@@ -4,7 +4,7 @@ const Solutions = () => {
   return (
     <section className="section">
       <div className="container">
-        <div className="exportDetailBx">
+        <div className="solutionsDetailsBx">
           <div className="p-5 pl-0">
             <h1 className="text-center">Our Solutions</h1>
           </div>

@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.6.1",
+    "@trendyol-js/react-carousel": "^3.0.2",
+    "formik": "^2.4.2",
     "framer-motion": "^6.3.3",
     "hero-slider": "^3.2.0",
     "next": "12.1.6",
@@ -17,7 +19,8 @@
     "react-dom": "18.1.0",
     "react-google-recaptcha": "^2.1.0",
     "react-icons": "^4.3.1",
-    "webpack": "^5.88.0"
+    "webpack": "^5.88.0",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",

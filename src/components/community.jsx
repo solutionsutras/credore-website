@@ -1,13 +1,13 @@
-import { FaGithub, FaDiscord, FaMediumM, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaDiscord, FaMediumM, FaTwitter} from 'react-icons/fa';
 
 function Community() {
   return (
     <div className="text-center container p-3 mx-auto mb-20">
-      <div className="flex flex-col items-center bg-[#29564B] text-white rounded-xl py-20 px-3">
-        <h3 className="text-4xl font-semibold mb-10">Join Our Community</h3>
-        <div className="flex gap-10 justify-center">
+      <div className="flex flex-col items-center text-white rounded-xl p-2">
+        <h3 className="text-xl font-semibold py-2">Join Our Community</h3>
+        <div className="flex gap-5 justify-center">
           <a
-            className="p-3 rounded-lg text-3xl"
+            className="py-1 px-2 rounded-md text-xl"
             href="https://github.com/credorelabs"
             target="_blank"
             rel="noreferrer"
@@ -15,7 +15,7 @@ function Community() {
             <FaGithub />
           </a>
           <a
-            className="p-3 rounded-lg text-3xl"
+            className="py-1 px-2 rounded-md text-xl"
             href="https://twitter.com/CredoreXYZ"
             target="_blank"
             rel="noreferrer"
@@ -23,7 +23,7 @@ function Community() {
             <FaTwitter />
           </a>
           <a
-            className="p-3 rounded-lg text-3xl"
+            className="py-1 px-2 rounded-md text-xl"
             href="#"
             target="_blank"
             rel="noreferrer"
@@ -31,7 +31,7 @@ function Community() {
             <FaMediumM />
           </a>
           <a
-            className="p-3 rounded-lg text-3xl"
+            className="p-1 rounded-md text-2xl"
             href="#"
             target="_blank"
             rel="noreferrer"

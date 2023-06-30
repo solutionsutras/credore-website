@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-
 import Link from "next/link";
-
+import Image from "next/image";
 import Form from "./RequestModal";
 
 const Menu = () => {
@@ -23,15 +22,21 @@ const Menu = () => {
         href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
         rel="stylesheet"
       />
-      <nav className="nav flex flex-wrap items-center justify-between p-10 py-4">
+      <nav className="nav flex flex-wrap items-center justify-between p-10 py-3">
         <div className="flex flex-no-shrink items-center mr-6 py-2 text-grey-darkest">
           <Link href="/">
             <a className="font-semibold tracking-tight w-60">
-              <img
+              <Image
+                src="/assets/images/Logo.png"
+                height={40}
+                width={240}
+                className="logo"
+              />
+              {/* <img
                 src="/assets/images/Logo.png"
                 alt="logo"
                 className="logo"
-              />
+              /> */}
             </a>
           </Link>
         </div>
@@ -45,7 +50,6 @@ const Menu = () => {
         </label>
 
         <ul className="menu flex justify-end list-reset m-0 w-full md:w-auto items-center text-sm">
-          
           <li className="">
             <Link href="/about_us">
               <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
@@ -71,16 +75,16 @@ const Menu = () => {
           </li>
 
           <li className="">
-            <a
+            <Link
               href="/#support"
               className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker"
             >
               Support
-            </a>
+            </Link>
           </li>
           <li className="">
             <button
-              className="ml-3 p-4 py-1 text-sm flex-shrink-0 text-white bg-[#f15928] font-medium text-xsm"
+              className="ml-3 p-4 py-1 text-sm flex-shrink-0 text-white bg-[#f15928] font-medium text-xsm rounded-sm"
               type="button"
               onClick={openModal}
             >

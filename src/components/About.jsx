@@ -3,7 +3,7 @@ import VideoSection from "./VideoSection";
 
 const About = () => {
   return (
-    <section className="section about-section p-0">
+    <section className="section about-section p-0" id="about-us">
       <div className="container">
         <div className="detailSectn flex gap-4 items-center">
           <div className="detailSecBx">
@@ -11,26 +11,25 @@ const About = () => {
               <h1>About Credore</h1>
             </div>
             <div className="heading">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
+              Next Generation Paperless Financial Supply Chain Management
+              with Blockchain & Tokenization
             </div>
             <div className="detailTxt">
               <p>
-                Global trade is the backbone of the world economy. However,
-                trading from ancient times is highly dependent on paper
-                documents, in spite of decades long efforts to digitalize. A
-                cross-border transaction involves multiple actors and on average
-                requires the exchange of 36 documents and 240 copies. Currently,
-                fewer than one percent of trade documents are fully digitized.
-              </p>
-              <p>
-                The lack of adoption of data standards, data privacy and on how
-                trade data are exchanged, combined with an actual absence of
-                standards, significantly hinder the seamless data flow from one
-                end of the supply chain to the other. This has diminished
-                efficiency gains along trade finance and documents exchange and
-                has weighed heavily on companies, in particular small
-                businesses.
+                Credore is a fast growing, blockchain powered fintech company
+                which is dedicated to promoting inclusivity, collaboration, and
+                digitization in the field of trade finance. The company offers
+                solutions such as factoring and receivables management to small
+                and medium-sized enterprises (MSMEs) in order to help them
+                overcome liquidity gaps and trust deficits. By implementing
+                Credore&apos;s solutions, businesses can improve their profits and
+                reduce paperwork, while also making cross-border financing more
+                accessible. In order to achieve this, Credore utilizes
+                cutting-edge technologies such as e-Invoice PEPPOL standard, LEI
+                (Global Legal Entities Identifier) and ICC Digital Standard
+                Initiative. These digital tools enable Credore to increase
+                efficiency and trust in the trade finance process, making it
+                more collaborative and accessible for all parties involved.
               </p>
             </div>
             <div>
@@ -45,7 +44,7 @@ const About = () => {
               <iframe
                 src="https://www.youtube.com/embed/VtplLPDcI88"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 className="aboutCredore"
               ></iframe>
             </div>
