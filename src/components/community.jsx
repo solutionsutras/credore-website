@@ -1,6 +1,6 @@
-import { FaGithub, FaDiscord, FaMediumM, FaTwitter} from 'react-icons/fa';
+import { FaGithub, FaDiscord, FaMediumM, FaTwitter } from "react-icons/fa";
 
-function Community() {
+const Community = () => {
   return (
     <div className="text-center container p-3 mx-auto mb-20">
       <div className="flex flex-col items-center text-white rounded-xl p-2">
@@ -11,7 +11,7 @@ function Community() {
             href="https://github.com/credorelabs"
             target="_blank"
             rel="noreferrer"
-            >
+          >
             <FaGithub />
           </a>
           <a
@@ -42,6 +42,6 @@ function Community() {
       </div>
     </div>
   );
-}
+};
 
 export default Community;

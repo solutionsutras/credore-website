@@ -35,11 +35,13 @@ const AboutUs = () => {
       <LazyShow>
         <WhyCredore />
       </LazyShow>
-      {/* <LazyShow>
-        <Community />
-      </LazyShow> */}
+      
       <LazyShow>
         <Footer />
+      </LazyShow>
+
+      <LazyShow>
+        <Community />
       </LazyShow>
     </div>
   );
