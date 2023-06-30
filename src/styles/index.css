@@ -7941,7 +7941,7 @@ html {
   max-width: 100%;
 }
 .contact-section {
-  background-image: url(../../public/assets/images/contact-bg-1.png);
+  background-image: url(../../public/assets/images/contact-bg.png);
   /* min-height: 550px; */
   /* max-height: 680px; */
   background-size: contain;
