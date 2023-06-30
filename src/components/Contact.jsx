@@ -12,7 +12,7 @@ import {
   FormikProvider,
 } from "formik";
 import Form from "./RequestModal";
-import * as Yup from "Yup";
+import * as Yup from "yup";
 
 const Contact = () => {
   const [email, setEmail] = useState("");

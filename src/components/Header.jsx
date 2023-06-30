@@ -27,7 +27,7 @@ const Menu = () => {
           <Link href="/">
             <a className="font-semibold tracking-tight w-60">
               <Image
-                src="/assets/images/Logo.png"
+                src="/assets/images/logo.png"
                 height={40}
                 width={240}
                 className="logo"
