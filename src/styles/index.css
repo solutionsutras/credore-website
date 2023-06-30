@@ -7831,8 +7831,8 @@ html {
   font-size: large;
   font-weight: 400;
   line-height: normal;
-  border-top:1px dotted #FFF;
-  border-bottom: 1px dotted #FFF;
+  /* border-top:1px dotted #FFF;
+  border-bottom: 1px dotted #FFF; */
 }
 .footer .receiveUpdates input{
   width:70%;
