@@ -40,30 +40,17 @@ const solutions = () => {
                 Our Solutions
               </h1>
             </div>
-            {/* <div className="bannerImage">
-            <figure>
-              <img
-                src="../assets/images/home-banner.png"
-                alt="Banner Image"
-                className="img-responsive"
-              />
-            </figure>
-          </div> */}
           </div>
         </div>
       </section>
-      {/* <LazyShow>
-        <FactsnFigures />
-      </LazyShow> */}
+      
       <LazyShow>
         <AboutDetails />
       </LazyShow>
+      
       <LazyShow>
         <Offerings />
       </LazyShow>
-      {/* <LazyShow>
-        <Team />
-      </LazyShow> */}
 
       <LazyShow>
         <Footer />

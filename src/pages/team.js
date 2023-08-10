@@ -1,22 +1,22 @@
 import React from 'react';
 import Head from "next/head";
-import Team from '../components/Team';
+// import Team from '../components/Team';
 import Community from '../components/Community';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 
-const App = () => {
+const team = () => {
   return (
     <div className="bg-background">
       <Head>
         <title>Credore</title>
       </Head>
       <Header />
-       <LazyShow>
+       {/* <LazyShow>
         <Team />
-      </LazyShow>
+      </LazyShow> */}
       <LazyShow>
         <Community />
       </LazyShow>
@@ -27,4 +27,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default team;
