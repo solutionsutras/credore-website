@@ -23,8 +23,10 @@ const Offerings = () => {
               <div className="flex gap-2 w-full ">
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
                   <Image
-                    src={"assets/images/offerings/invoice-discounting.png"}
+                    src={"/assets/images/offerings/invoice-discounting.png"}
                     alt=""
+                    width={"100%"}
+                    height={"100%"}
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -35,9 +37,11 @@ const Offerings = () => {
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
                   <Image
                     src={
-                      "assets/images/offerings/exchange-standardizedand-digital-originaldocuments.png"
+                      "/assets/images/offerings/exchange-standardizedand-digital-originaldocuments.png"
                     }
                     alt=""
+                    width={"100%"}
+                    height={"100%"}
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -46,8 +50,10 @@ const Offerings = () => {
                 </div>
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
                   <Image
-                    src={"assets/images/offerings/true-decentralisation.png"}
+                    src={"/assets/images/offerings/true-decentralisation.png"}
                     alt=""
+                    width={"100%"}
+                    height={"100%"}
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -60,9 +66,10 @@ const Offerings = () => {
               <div className="flex gap-2 w-full ">
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
                   <Image
-                    src={"assets/images/offerings/digital-standardised.png"}
+                    src={"/assets/images/offerings/digital-standardised.png"}
                     width={100}
                     alt=""
+                    height={"100%"}
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -72,9 +79,10 @@ const Offerings = () => {
                 </div>
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
                   <Image
-                    src={"assets/images/offerings/seamless-on-boarding.png"}
+                    src={"/assets/images/offerings/seamless-on-boarding.png"}
                     width={100}
                     alt=""
+                    height={"100%"}
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -84,8 +92,10 @@ const Offerings = () => {
                 </div>
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
                   <Image
-                    src={"assets/images/offerings/realtime-collaboration.png"}
+                    src={"/assets/images/offerings/realtime-collaboration.png"}
                     alt=""
+                    width={"100%"}
+                    height={"100%"}
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -97,11 +107,16 @@ const Offerings = () => {
 
             <div className="mb-20"></div>
 
-            <div className="container ">
+            <div className="container flex">
               {/* <div className="p-5 pl-0">
                 <h1>Our Team</h1>
               </div> */}
-              <Image src={"assets/images/team/the-team.png"} />
+              <Image
+                src={"/assets/images/team/the-team.png"}
+                width={1130}
+                height={400}
+                alt=""
+              />
             </div>
           </div>
         </div>

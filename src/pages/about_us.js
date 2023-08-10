@@ -36,9 +36,9 @@ const about_us = () => {
         <div className="container flex flex-col gap-[20px]">
           <div className="homeBannerSection">
             <div className="banner-details">
-              <h1 className="hero-heading font-medium text-[#f15928] text-[#f15928]">
+              {/* <h1 className="hero-heading font-medium text-[#f15928] text-[#f15928]">
                 About Us
-              </h1>
+              </h1> */}
             </div>
             {/* <div className="bannerImage">
             <figure>

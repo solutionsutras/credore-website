@@ -24,7 +24,7 @@ const Community = () => {
           </a>
           <a
             className="py-1 px-2 rounded-md text-xl"
-            href="#"
+            href="https://www.youtube.com/@Credore-ts2xz"
             target="_blank"
             rel="noreferrer"
           >

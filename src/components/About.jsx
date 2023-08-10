@@ -1,5 +1,6 @@
 import React from "react";
 import VideoSection from "./VideoSection";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -11,7 +12,8 @@ const About = () => {
               <h1>About Credore</h1>
             </div>
             <div className="heading">
-            Transforming Financial SupplyChain Management: Unlocking Verifiable Trust with Credore
+              Transforming Financial SupplyChain Management: Unlocking
+              Verifiable Trust with Credore
             </div>
             <div className="detailTxt">
               <p>
@@ -21,15 +23,17 @@ const About = () => {
                 solutions such as factoring and receivables management to small
                 and medium-sized enterprises (MSMEs) in order to help them
                 overcome liquidity gaps and trust deficits. By implementing
-                Credore&apos;s solutions, businesses can improve their profits and
-                reduce paperwork, while also making cross-border financing more
-                accessible.
+                Credore&apos;s solutions, businesses can improve their profits
+                and reduce paperwork, while also making cross-border financing
+                more accessible.
               </p>
             </div>
             <div>
-              <button type="button" className="btn-primary learn-more">
-                Read More
-              </button>
+              <Link href="/about_us">
+                <button type="button" className="btn-primary learn-more">
+                  Read More
+                </button>
+              </Link>
             </div>
           </div>
 

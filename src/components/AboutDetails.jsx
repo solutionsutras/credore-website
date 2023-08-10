@@ -3,7 +3,7 @@ import VideoSection from "./VideoSection";
 
 const AboutDetails = () => {
   return (
-    <section className="section about-section p-0" id="about-us">
+    <section className="section p-0" id="about-us">
       <div className="container">
         <div className="detailSectn flex gap-4 items-center">
           <div className="detailSecBx p-5 w-full">
@@ -36,9 +36,9 @@ const AboutDetails = () => {
               </p>
             </div>
             <div>
-              <button type="button" className="btn-primary learn-more">
+              {/* <button type="button" className="btn-primary learn-more">
                 Read More
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

@@ -22,9 +22,11 @@ const Solutions = () => {
             <div className="tile">
               <figure>
                 <Image
-                  src={"assets/images/suppliers.png"}
-                  alt="exprt-img"
+                  src={"/assets/images/suppliers.png"}
+                  alt=""
                   className="img-responsive"
+                  width={"100%"}
+                  height={"100%"}
                 />
               </figure>
               <div className="tileHEading">for Sellers</div>
@@ -38,9 +40,11 @@ const Solutions = () => {
             <div className="tile">
               <figure>
                 <Image
-                  src={"assets/images/banks.png"}
+                  src={"/assets/images/banks.png"}
                   alt="exprt-img"
                   className="img-responsive"
+                  width={"100%"}
+                  height={"100%"}
                 />
               </figure>
               <div className="tileHEading">for Financial Institutions</div>
@@ -53,10 +57,12 @@ const Solutions = () => {
             </div>
             <div className="tile">
               <figure>
-              <Image
-                  src={"assets/images/corporates.png"}
+                <Image
+                  src={"/assets/images/corporates.png"}
                   alt="exprt-img"
                   className="img-responsive"
+                  width={"100%"}
+                  height={"100%"}
                 />
               </figure>
               <div className="tileHEading">for Corporates</div>

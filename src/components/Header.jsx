@@ -35,6 +35,8 @@ const WhyCredore = () => {
               <Image
                 src={"/assets/images/logo-small.png"}
                 alt="logo"
+                height={50}
+                width={210}
                 className="logo"
               />
             </a>
