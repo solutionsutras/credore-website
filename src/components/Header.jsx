@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Form from "./RequestModal";
 
-const Menu = () => {
+const WhyCredore = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
@@ -32,8 +32,8 @@ const Menu = () => {
                 width={240}
                 className="logo"
               /> */}
-              <img
-                src="/assets/images/logo-small.png"
+              <Image
+                src={"/assets/images/logo-small.png"}
                 alt="logo"
                 className="logo"
               />
@@ -98,4 +98,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default WhyCredore;

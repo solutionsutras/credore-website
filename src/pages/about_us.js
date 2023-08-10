@@ -12,9 +12,9 @@ import WhyCredore from "../components/WhyCredore";
 import Offerings from "../components/Offerings";
 import AboutDetails from "../components/AboutDetails";
 import Team from "../components/team";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
-const AboutUs = () => {
+const about_us = () => {
   return (
     <div className="bg-background">
       <Head>
@@ -76,4 +76,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default about_us;

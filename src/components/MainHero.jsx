@@ -13,21 +13,12 @@ const MainHero = () => {
               <span className="font-bold">
                 Financial Supply Chain Management
               </span><br></br>
-              with <span className="font-bold">Verifiable Trust</span>
+              with <span className="font-bold">Verifiable Trust</span>
             </h1>
             <div className="mt-5">
               <button className="knowMore btn-primary">Know More</button>
             </div>
           </div>
-          {/* <div className="bannerImage">
-            <figure>
-              <img
-                src="../assets/images/home-banner.png"
-                alt="Banner Image"
-                className="img-responsive"
-              />
-            </figure>
-          </div> */}
         </div>
         <FactsnFigures />
       </div>

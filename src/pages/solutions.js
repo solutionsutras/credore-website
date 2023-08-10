@@ -14,7 +14,7 @@ import Offerings from "../components/Offerings";
 import AboutDetails from "../components/AboutDetails";
 import Team from "../components/team";
 
-const OurSolutions = () => {
+const solutions = () => {
   return (
     <div className="bg-background">
       <Head>
@@ -76,4 +76,4 @@ const OurSolutions = () => {
   );
 };
 
-export default OurSolutions;
+export default solutions;

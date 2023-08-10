@@ -20,8 +20,8 @@ const Solutions = () => {
           <div className="otherDetails">
             <div className="tile">
               <figure>
-                <img
-                  src="assets/images/suppliers.png"
+                <Image
+                  src={"assets/images/suppliers.png"}
                   alt="exprt-img"
                   className="img-responsive"
                 />
@@ -36,8 +36,8 @@ const Solutions = () => {
             </div>
             <div className="tile">
               <figure>
-                <img
-                  src="assets/images/banks.png"
+                <Image
+                  src={"assets/images/banks.png"}
                   alt="exprt-img"
                   className="img-responsive"
                 />
@@ -52,8 +52,8 @@ const Solutions = () => {
             </div>
             <div className="tile">
               <figure>
-                <img
-                  src="assets/images/corporates.png"
+              <Image
+                  src={"assets/images/corporates.png"}
                   alt="exprt-img"
                   className="img-responsive"
                 />
