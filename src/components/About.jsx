@@ -6,13 +6,12 @@ const About = () => {
     <section className="section about-section p-0" id="about-us">
       <div className="container">
         <div className="detailSectn flex gap-4 items-center">
-          <div className="detailSecBx">
+          <div className="detailSecBx p-5 w-3/5">
             <div className="p-5 pl-0">
               <h1>About Credore</h1>
             </div>
             <div className="heading">
-              Next Generation Paperless Financial Supply Chain Management
-              with Blockchain & Tokenization
+            Transforming Financial SupplyChain Management: Unlocking Verifiable Trust with Credore
             </div>
             <div className="detailTxt">
               <p>
@@ -24,12 +23,7 @@ const About = () => {
                 overcome liquidity gaps and trust deficits. By implementing
                 Credore&apos;s solutions, businesses can improve their profits and
                 reduce paperwork, while also making cross-border financing more
-                accessible. In order to achieve this, Credore utilizes
-                cutting-edge technologies such as e-Invoice PEPPOL standard, LEI
-                (Global Legal Entities Identifier) and ICC Digital Standard
-                Initiative. These digital tools enable Credore to increase
-                efficiency and trust in the trade finance process, making it
-                more collaborative and accessible for all parties involved.
+                accessible.
               </p>
             </div>
             <div>
@@ -39,12 +33,12 @@ const About = () => {
             </div>
           </div>
 
-          <div className="detailSecBx">
+          <div className="detailSecBx p-5 w-2/5">
             <div>
               <iframe
                 src="https://www.youtube.com/embed/VtplLPDcI88"
                 title="YouTube video player"
-                frameBorder="0"
+                // frameBorder="0"
                 className="aboutCredore"
               ></iframe>
             </div>

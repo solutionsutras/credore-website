@@ -44,19 +44,16 @@ function Footer() {
             <h1 className="heading">Solutions</h1>
             <ul className="linksBx">
               <li>
-                <a href="#">Smart contracts</a>
-              </li>
-              <li>
                 <a href="#">Paperless trade finance</a>
               </li>
               <li>
                 <a href="#">Process automation</a>
               </li>
               <li>
-                <a href="#">by the readable content </a>
+                <a href="#">Smart contracts</a>
               </li>
               <li>
-                <a href="#">page when looking at its</a>
+                <a href="#">Invoice discounting</a>
               </li>
             </ul>
           </div>
@@ -64,7 +61,7 @@ function Footer() {
           <div className="readyToGoBx">
             <h1 className="heading">Ready To Go Truly Paperless?</h1>
             <p>
-              Get a free personalised demo and see how easy it to manage your
+              Get a free personalised demo and see how easy it is to manage your
               paperless trade finance.
             </p>
             <div>
@@ -78,13 +75,16 @@ function Footer() {
             </div>
 
             <div>
-              <h1 className="heading mt-5">Receive Updates and News from Credore</h1>
+              <h1 className="heading mt-5">
+                Receive Updates and News from Credore
+              </h1>
               <div className="receiveUpdates flex items-center gap-4 py-0">
                 <input
                   type="text"
                   className="p-2 py-1 border-1 md:round border-[#F15928] outline-none text-sm br-5"
                   placeholder="Enter Your Email"
                   value=""
+                  onChange={() => {}}
                 />
                 <button
                   className="px-4 py-1 text-sm flex-shrink-0 text-F15928 bg-[#FFF]"
@@ -101,9 +101,6 @@ function Footer() {
           <div>&#169; Copyright 2023 Credore - All rights Reserved</div>
           <div className="mediaLinks items-center">
             <ul className="otherLinks">
-              <li>
-                <a href="#">Status</a>
-              </li>
               <li>
                 <a href="#">Privacy</a>
               </li>

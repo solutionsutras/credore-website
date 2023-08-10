@@ -1,17 +1,29 @@
-import { Fragment, useState, createRef } from 'react';
+import { Fragment, useState, createRef } from "react";
 
-import { Dialog, Transition } from '@headlessui/react';
-import ReCAPTCHA from 'react-google-recaptcha';
+import { Dialog, Transition } from "@headlessui/react";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
+
+import ReCAPTCHA from "react-google-recaptcha";
 
 function Home() {
   const recaptchaRef = createRef();
-  const [emailError, setEmailError] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [name, setName] = useState('');
-  const [orgName, setOrgName] = useState('');
+  const [inputError, setInputError] = useState("");
+  const [emailError, setEmailError] = useState(" ");
+  const [nameError, setNameError] = useState(" ");
+  const [phoneError, setPhoneError] = useState(" ");
+  const [designationError, setDesignationError] = useState(" ");
+  const [orgNameError, setOrgNameError] = useState(" ");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [designation, setDesignation] = useState("");
+  const [name, setName] = useState("");
+  const [orgName, setOrgName] = useState("");
+  const [remarks, setRemarks] = useState("");
   const [captchaError, setCaptchaError] = useState(false);
   const [successStatus, setSuccessStatus] = useState(false);
+  const [selected, setSelected] = useState("IN");
+  const [value, setValue] = useState("IN");
 
   const validateEmail = (data) => {
     return String(data)
@@ -19,6 +31,22 @@ function Home() {
       .match(
         /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
       );
+  };
+
+  const validatePhone = (data) => {
+    let regex = new RegExp(/^[+]{1}(?:[0-9\-\(\)\/\.]\s?){6, 15}[0-9]{1}$/);
+
+    // if phonenumber is empty return false
+    if (!data) return "false";
+
+    // Return true if the phonenumber matched the ReGex
+    if (regex.test(data) == true) return "true";
+    else return "false";
+
+    // return String(data)
+    //   .toLowerCase()
+    //   // .match(/^[+]{1}\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/);
+    //   .match(/^[+]{1}(?:[0-9\-\(\)\/\.]\s?){6, 15}[0-9]{1}$/);
   };
 
   const onChangeName = (e) => {
@@ -29,117 +57,177 @@ function Home() {
     const { value } = e.target;
     setEmail(value);
   };
-  const onChangePhone = (e) => {
+  // const onChangePhone = (e) => {
+  //   const { value } = e.target;
+  //   setPhone(value.replace(/\s+/g, ""));
+  // };
+  const onChangeDesignation = (e) => {
     const { value } = e.target;
-    setPhone(value);
+    setDesignation(value);
   };
   const onChangeOrg = (e) => {
     const { value } = e.target;
     setOrgName(value);
   };
+  const onChangeRemarks = (e) => {
+    const { value } = e.target;
+    setRemarks(value);
+  };
 
   const submitData = (value) => {
-    fetch(
-      'https://eoql7b7hs2.execute-api.us-east-2.amazonaws.com/dev/v1/early-access',
-      {
-        method: 'POST',
-        body: JSON.stringify({
-          email: value,
-        }),
-        headers: {
-          'Content-type': 'application/json; charset=UTF-8',
-        },
-      }
-    )
+    const inputData = {
+      name: name,
+      email: email,
+      phone: phone,
+      companyName: orgName,
+      designation: designation,
+      query: remarks,
+    };
+    fetch("https://dev.credore.xyz/users/contact/form", {
+      method: "POST",
+      body: JSON.stringify(inputData),
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
       .then((response) => response.json())
       .then((data) => {
         if (data?.message) {
-          setSuccessStatus(data?.message);
+          // setSuccessStatus(data?.message);
+          alert("Something went wrong: " + data?.message);
         } else {
-          setSuccessStatus(
-            'Thank you for registration. We will notify you as soon as the app is available.'
+          // setSuccessStatus(
+          //   "Thank you for registration. We will notify you at the earliest."
+          // );
+          alert(
+            "Thank you for registration. We will notify you at the earliest."
           );
         }
       })
-      .catch(() => setSuccessStatus('Something Went Wrong'));
+      .catch(() => {
+        alert("Something went wrong: " + data?.message);
+        closeModal;
+      });
+    // setSuccessStatus("Something Went Wrong"));
   };
 
   const onSubmit = (e) => {
     e.preventDefault();
-    const recaptchaValue = recaptchaRef.current.getValue();
-    if (!validateEmail(email)) {
-      setEmailError('Enter valid Email!');
+    // const recaptchaValue = recaptchaRef.current.getValue();
+    const recaptchaValue = 1;
+    if (!name) {
+      setInputError("Please enter your full name");
+    } else if (!validateEmail(email)) {
+      setInputError("Please enter a valid email");
+    } else if (!validatePhone(phone)) {
+      setInputError("Please enter a valid phone number");
+      setInputError(phone);
+    } else if (!orgName) {
+      setInputError("Please enter your company name!");
+    } else if (!designation) {
+      setInputError("Please enter your designation");
     } else if (!recaptchaValue) {
       setCaptchaError(true);
+      setInputError(true);
     } else {
-      setCaptchaError(false);
+      setInputError(null);
+      setNameError(null);
       setEmailError(null);
+      setPhoneError(null);
+      setOrgNameError(null);
+      setDesignationError(null);
+      setCaptchaError(false);
       submitData(email);
     }
   };
-
-  const secretKey = '6LctN-cfAAAAABG5jg9iToRqj-IojqOhY5hBltWS';
+  const secretKey = "6LctN-cfAAAAABG5jg9iToRqj-IojqOhY5hBltWS";
 
   return (
     <form onSubmit={onSubmit}>
+      <div className="text-red-500 text-sm">{inputError}</div>
       <div className="my-3">
         <input
           type="text"
-          className="p-2 border-1 md:round border-[#F15928] outline-none text-sm w-full br-5"
+          className="p-2 pt-1 pb-1 border-1 md:round border-[#F15928] outline-none text-sm w-full br-5"
           onChange={onChangeName}
           value={name}
-          placeholder="Your Full Name"
+          placeholder="Your Full Name *"
         />
-        <div className="text-red-500">{emailError}</div>
+        {/* <div className="text-red-500 text-xsm">{nameError}</div> */}
       </div>
-      <div className="my-3">
-        <input
-          type="text"
-          className="p-2 border-1 md:round border-[#F15928] outline-none text-sm w-full br-5"
-          onChange={onChangeEmail}
-          value={email}
-          placeholder="Enter Your Email"
-        />
-        <div className="text-red-500">{emailError}</div>
+
+      <div className="flex items-center gap-3">
+        <div className="my-3 w-full">
+          <input
+            type="text"
+            className="p-2 pt-1 pb-1 border-1 md:round border-[#F15928] outline-none text-sm w-full br-5"
+            onChange={onChangeEmail}
+            value={email}
+            placeholder="Your Email *"
+          />
+          {/* <div className="text-red-500 text-xsm">{emailError}</div> */}
+        </div>
+
+        {/* country code */}
+        <div className="my-3 w-full">
+          <PhoneInput
+            placeholder="Enter phone number"
+            defaultCountry="IN"
+            value={phone}
+            onChange={setPhone}
+            className="p-2 pt-1 pb-1 border-1 md:round border-[#F15928] outline-none text-sm w-full br-5"
+          />
+          {/* <div className="text-red-500 text-xsm">{phoneError}</div> */}
+        </div>
+      </div>
+
+      <div className="flex items-center gap-3">
+        <div className="my-3 w-full">
+          <input
+            type="text"
+            className="p-2 pt-1 pb-1 border-1 md:round border-[#F15928] outline-none text-sm w-full br-5"
+            onChange={onChangeOrg}
+            value={orgName}
+            placeholder="Your Organization Name *"
+          />
+          {/* <div className="text-red-500 text-xsm">{orgNameError}</div> */}
+        </div>
+        <div className="my-3 w-full">
+          <input
+            type="text"
+            className="p-2 pt-1 pb-1 border-1 md:round border-[#F15928] outline-none text-sm w-full br-5"
+            onChange={onChangeDesignation}
+            value={designation}
+            placeholder="Your Designation *"
+          />
+          {/* <div className="text-red-500 text-xsm">{designationError}</div> */}
+        </div>
       </div>
 
       <div className="my-3">
-        <input
-          type="text"
-          className="p-2 border-1 md:round border-[#F15928] outline-none text-sm w-full br-5"
-          onChange={onChangePhone}
-          value={phone}
-          placeholder="Phone No"
+        <textarea
+          className="p-2 pt-1 pb-1 border-1 md:round border-[#F15928] outline-none text-sm w-full br-5"
+          onChange={onChangeRemarks}
+          value={remarks}
+          placeholder="Your Query (optional)"
         />
-        <div className="text-red-500">{emailError}</div>
+        {/* <div className="text-red-500 text-xsm">{orgNameError}</div> */}
       </div>
-
-      <div className="my-3">
-        <input
-          type="text"
-          className="p-2 border-1 md:round border-[#F15928] outline-none text-sm w-full br-5"
-          onChange={onChangeOrg}
-          value={orgName}
-          placeholder="Organization Name"
-        />
-        <div className="text-red-500">{emailError}</div>
-      </div>
-
-      <div className="my-3">
+      {/* <div className="my-3">
         <ReCAPTCHA
           ref={recaptchaRef}
           sitekey="6LctN-cfAAAAAPoMPQhN4xmcxvQ9GmO2gEKzPJqQ"
           onChange={() => captchaError(false)}
         />
-      </div>
+      </div> */}
       <button
-        className="px-4 py-1 text-sm flex-shrink-0 text-white bg-[#F15928]"
+        className="px-4 py-1 text-sm flex-shrink-0 text-white bg-[#F15928] font-medium"
         type="submit"
       >
-        Request
+        Submit
       </button>
-      {successStatus === 'Something Went Wrong' ? (
-        <div className="text-red-500">{successStatus}</div>
+      {successStatus === "Something Went Wrong" ? (
+        <div className="text-red-500 text-xsm">{successStatus}</div>
       ) : (
         <div className="text-blue-500">{successStatus}</div>
       )}
@@ -178,7 +266,7 @@ export default function MyModal({ isOpen, closeModal }) {
                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                   <Dialog.Title
                     as="h3"
-                    className="text-xl font-medium leading-6 text-gray-900 mb-10"
+                    className="text-xl font-medium leading-6 text-gray-900 mb-5 pb-2 border-b"
                   >
                     Request Demo
                   </Dialog.Title>

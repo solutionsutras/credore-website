@@ -1,4 +1,4 @@
-import { FaGithub, FaDiscord, FaMediumM, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaDiscord, FaYoutube, FaTwitter } from "react-icons/fa";
 
 const Community = () => {
   return (
@@ -6,14 +6,6 @@ const Community = () => {
       <div className="flex flex-col items-center text-white rounded-xl p-2">
         <h3 className="text-xl font-semibold py-2">Join Our Community</h3>
         <div className="flex gap-5 justify-center">
-          <a
-            className="py-1 px-2 rounded-md text-xl"
-            href="https://github.com/credorelabs"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub />
-          </a>
           <a
             className="py-1 px-2 rounded-md text-xl"
             href="https://twitter.com/CredoreXYZ"
@@ -24,19 +16,19 @@ const Community = () => {
           </a>
           <a
             className="py-1 px-2 rounded-md text-xl"
-            href="#"
+            href="https://in.linkedin.com/company/credore"
             target="_blank"
             rel="noreferrer"
           >
-            <FaMediumM />
+            <FaLinkedin />
           </a>
           <a
-            className="p-1 rounded-md text-2xl"
+            className="py-1 px-2 rounded-md text-xl"
             href="#"
             target="_blank"
             rel="noreferrer"
           >
-            <FaDiscord />
+            <FaYoutube />
           </a>
         </div>
       </div>

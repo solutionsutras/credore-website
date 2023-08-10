@@ -22,21 +22,21 @@ const Menu = () => {
         href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
         rel="stylesheet"
       />
-      <nav className="nav flex flex-wrap items-center justify-between p-10 py-3">
+      <nav className="nav flex flex-wrap items-center justify-between p-10 py-1">
         <div className="flex flex-no-shrink items-center mr-6 py-2 text-grey-darkest">
           <Link href="/">
             <a className="font-semibold tracking-tight w-60">
-              <Image
-                src="/assets/images/logo.png"
+              {/* <Image
+                src="/assets/images/logo.svg"
                 height={40}
                 width={240}
                 className="logo"
-              />
-              {/* <img
-                src="/assets/images/Logo.png"
+              /> */}
+              <img
+                src="/assets/images/logo-small.png"
                 alt="logo"
                 className="logo"
-              /> */}
+              />
             </a>
           </Link>
         </div>
@@ -59,7 +59,7 @@ const Menu = () => {
           </li>
 
           <li className="">
-            <Link href="/#solutions">
+            <Link href="/solutions">
               <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
                 Solutions
               </a>
@@ -75,12 +75,12 @@ const Menu = () => {
           </li>
 
           <li className="">
-            <Link
-              href="/#support"
+            <a
+              href="/use_cases"
               className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker"
             >
-              Support
-            </Link>
+              Use Cases
+            </a>
           </li>
           <li className="">
             <button

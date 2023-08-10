@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaGithub, FaDiscord, FaMediumM, FaTwitter } from "react-icons/fa";
-import { MdLocationPin, MdPhone, MdEmail } from "react-icons/md";
+import { MdPlace, MdLocationPin, MdPhone, MdEmail } from "react-icons/md";
 import {
   useFormik,
   Field,
@@ -80,62 +80,64 @@ const Contact = () => {
   return (
     <section className="section contact-section">
       <div className="container">
-        <div className="px-10 py-5">
+        <div className="p-5">
           <div className="p-5 pl-0 text-center pb-10">
             <h1 className="">Contact Us</h1>
           </div>
 
           <div className="detailSectn flex gap-10 justify-between">
             <div className="w-full">
-              <h5 className="text-[#29564b] mb-4">Contact Info</h5>
+              <h5 className="text-[#29564b] mb-4 border-b border-[#F15928]">Contact Info</h5>
 
-              <div className="flex">
-                <MdLocationPin size={32} />
+              <div className="flex gap-5">
+                <MdPlace size={42} />
                 <div className="flex flex-col gap-2">
-                  <h5 className="font-medium underline">Registered Office</h5>
-                  <p className="font-medium text-sm text-[#29564b] ml-2">
-                    B-105, Wakad Center, Bhumkar Chowk, Pune, Maharashtra -
-                    411057
+
+                  <h5 className="font-medium ">Branch Office</h5>
+                  <p className="font-medium text-xsm text-[#29564b] ml-2">
+                  108 A ,108 B, KIIT-Technology Business Incubator Campus 11, KIIT-DU, Bhubaneswar, Khordha, Odisha, India-751024
                   </p>
 
-                  <h5 className="font-medium underline mt-2">Branch Office</h5>
-                  <p className="font-medium text-sm text-[#29564b] ml-2">
-                    Patia, Bhubaneswar, Odisha - 751024
+                  
+                  <h5 className="font-medium">Registered Office</h5>
+                  <p className="font-medium text-xsm text-[#29564b] ml-2">
+                    Bhumkar Chowk, Pune, Maharashtra - 411057
                   </p>
+
                 </div>
               </div>
 
               <div className="mb-4" />
 
-              <div className="flex">
-                <MdPhone size={32} />
+              <div className="flex gap-5 items-center">
+                <MdPhone size={24} />
                 <div className="flex flex-col gap-2">
                   <p>
                     <a
-                      className="font-medium text-[#29564b] ml-2"
+                      className="font-medium text-[#29564b] ml-2 text-xsm"
                       href="tel:+919876543210"
                     >
-                      +91-987 654 3210
+                      +91-86009 36299
                     </a>
                   </p>
-                  <p>
+                  {/* <p>
                     <a
-                      className="font-medium text-[#29564b] ml-2"
+                      className="font-medium text-[#29564b] ml-2 text-xsm"
                       href="tel:+911234567890"
                     >
                       +91-123 456 7890
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
               <div className="mb-4" />
 
-              <div className="flex">
-                <MdEmail size={32} />
+              <div className="flex gap-5 items-center">
+                <MdEmail size={24} />
                 <div className="flex flex-col gap-2">
                   <a
-                    className="font-medium text-[#29564b] ml-2"
+                    className="font-medium text-[#29564b] ml-2 text-xsm"
                     href="mailto:info@credore.xyz"
                   >
                     info@credore.xyz
@@ -164,8 +166,8 @@ const Contact = () => {
 
             {/* <FaLocationDot /> */}
             <div className="w-full">
-              <h5 className="text-[#29564b] mb-4">
-                Please enter the below information to get in touch
+              <h5 className="text-[#29564b] mb-1">
+                Please enter your details to get in touch
               </h5>
               <form
                 className="flex flex-col w-full gap-1"

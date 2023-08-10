@@ -148,7 +148,7 @@ a:hover {
   text-decoration: underline;
 }
 body {
-  color: #2C5B50;
+  color: #2c5b50;
   font-weight: 300;
 }
 .h1--light,
@@ -265,7 +265,7 @@ button--large {
 .hs-button:hover,
 a.button:hover,
 button:hover {
-  text-decoration:solid;
+  text-decoration: solid;
 }
 .hs-button.primary {
   -webkit-appearance: none;
@@ -7091,7 +7091,7 @@ html {
 .homeBannerSection {
   display: flex;
   align-items: center;
-  width:60%;
+  width: 60%;
   /* justify-content: space-between; */
   padding-top: 100px;
 }
@@ -7105,7 +7105,7 @@ html {
   max-width: 470px;
   line-height: normal;
   /* color: #000; */
-  color: #050d0b;
+  color: #24554a;
   /* text-transform: capitalize; */
 }
 .banner-details .knowMore {
@@ -7147,32 +7147,38 @@ html {
   /* align-items: center; */
   justify-content: space-around;
   flex-direction: column;
-  border: 1px solid #29564b29;
+  border: 1px solid #29564b9e;
   box-shadow: 0px 5px 5px 0px #29564b87;
-  padding: 20px;
-  margin:5px 10px;
+  padding: 20px 5px 20px 15px;
+  margin: 5px 10px;
   border-radius: 10px;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.5);
   min-height: 275px;
 }
 /* .facts-section li:first-child {
   border: none;
 } */
-.facts-section li p{
-  font-size: large;
+.facts-section li p {
+  font-size: 0.75rem;
   font-weight: 500;
-  color:#29564b;
+  color: #29564b;
+}
+.facts-section li ul li {
+  border: none;
+  box-shadow: none;
+  display: list-item;
+  padding: 0;
+  padding-bottom: 0.5rem;
+  margin:0;
+  min-height:0;
+  background-color: transparent;
 }
 .facts-section label {
-  font-size: larger;
+  font-size: large;
   line-height: normal;
   font-weight: 700;
-  color: #F15928;
-}
-.facts-section .text {
-  font-size: large;
-    font-weight: 500;
-    color: #29564b;
+  color: #f15928;
+  margin-bottom: 3px;
 }
 .facts-section span {
   font-size: 18px;
@@ -7292,27 +7298,27 @@ html {
   object-fit: cover;
 }
 .detailSectn .detailSecBx {
-  padding: 50px;
-  top: 0;
+  /* padding: 50px; */
+  /* top: 0;
   left: 0;
   width: 50%;
-  height: 100%;
+  height: 100%; */
 }
 .detailSectn .heading {
   color: #29564b;
-    font-size: larger;
-    line-height: normal;
-    margin-bottom: 15px;
-    font-weight: 500;
+  font-size: larger;
+  line-height: normal;
+  margin-bottom: 15px;
+  font-weight: 500;
 }
 .detailSectn .detailTxt {
   margin-bottom: 1.5rem;
 }
 .detailSectn .detailTxt p {
   color: #29564b;
-    font-size: large;
-    font-weight: 500;
-    margin-bottom:0.5rem;
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 .detailSectn .learn-more {
   padding: 0 18px;
@@ -7570,7 +7576,7 @@ html {
   border-radius: 8px;
 }
 .solutionsDetailsBx .tile:hover {
-  background-color: #F15928;
+  background-color: #f15928;
 }
 .solutionsDetailsBx .tile figure {
   margin-bottom: 15px;
@@ -7583,13 +7589,13 @@ html {
 .solutionsDetailsBx .tile .tileHEading {
   margin-bottom: 15px;
   font-size: 1.1rem;
-  color: #F8D59E;
+  color: #f8d59e;
   font-weight: 600;
 }
 .solutionsDetailsBx .tile .tiletxt {
   color: #fff;
   font-weight: 500;
-  font-size:medium;
+  font-size: medium;
 }
 .solutionsDetailsBx .btnBx {
   display: flex;
@@ -7767,7 +7773,7 @@ html {
   border-bottom: 1px solid #fff;
   font-size: 18px;
   font-weight: 700;
-  color:#FFF;
+  color: #fff;
 }
 .footer .linksSectn .quickLinks .linksBx li {
   line-height: 30px;
@@ -7786,7 +7792,7 @@ html {
   border-bottom: 1px solid #fff;
   font-size: 18px;
   font-weight: 700;
-  color:#FFF;
+  color: #fff;
 }
 .footer .linksSectn .solutionsLinks .linksBx {
   margin-left: 15px;
@@ -7810,7 +7816,7 @@ html {
   border-bottom: 1px solid #2c5b50;
   font-size: 18px;
   font-weight: 700;
-  color:#FFF;
+  color: #fff;
 }
 .footer .linksSectn .readyToGoBx p {
   margin-bottom: 15px;
@@ -7832,11 +7838,11 @@ html {
   font-weight: 400;
   line-height: normal;
 }
-.footer .receiveUpdates input{
-  width:70%;
+.footer .receiveUpdates input {
+  width: 70%;
   font-size: medium;
 }
-.footer .receiveUpdates button{
+.footer .receiveUpdates button {
   font-size: medium;
 }
 .footer .copyrightSectn {
@@ -7847,7 +7853,7 @@ html {
   justify-content: space-between;
   border-top: 1px dotted #999;
 }
-.copyrightSectn div{
+.copyrightSectn div {
   font-size: medium;
   font-weight: 400;
 }
@@ -7870,11 +7876,11 @@ html {
   padding: 0px;
   margin: 0px;
 }
-.footer .otherLinks li a{
-  color: #FFF;
-    font-size: medium;
-    font-weight: 400;
-    font-style:italic;
+.footer .otherLinks li a {
+  color: #fff;
+  font-size: medium;
+  font-weight: 400;
+  font-style: italic;
 }
 .footer .socialMediaLinks {
   display: flex;
@@ -7884,10 +7890,10 @@ html {
   width: 20px;
   height: 20px;
 }
-.footer ul.socialMediaLinks li{
-  background-color: #EFEFEF;
+.footer ul.socialMediaLinks li {
+  background-color: #efefef;
   padding: 2px;
-  border:1px solid #FFF;
+  border: 1px solid #fff;
   border-radius: 3px;
 }
 
@@ -7938,6 +7944,7 @@ html {
   margin: 3rem auto !important;
   max-width: 100%;
 }
+
 .contact-section {
   background-image: url(../../public/assets/images/contact-bg.png);
   /* min-height: 550px; */
@@ -7945,9 +7952,8 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #f159281c;
-    background-position: center;
+  background-position: center;
 }
-
 
 .fnf-section {
   /* background-color: rgba(241, 89, 41, 0.1) !important; */
@@ -7988,10 +7994,10 @@ html {
   margin: 0.5rem 1rem 1rem;
   padding: 10px;
   border-radius: 10px;
-  border-left: 1px solid #EAEAEA;
-  border-top: 1px solid #EAEAEA;
-  border-right: 2px solid #F8D59E;
-  border-bottom: 5px solid #F8D59E;
+  border-left: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
+  border-right: 2px solid #f8d59e;
+  border-bottom: 5px solid #f8d59e;
 }
 
 .blurb-title {
@@ -8034,4 +8040,13 @@ html {
   height: 128px;
   width: 128px;
   margin-bottom: 0.75rem;
+}
+
+.about-page-banner{
+  background-image: url(../../public/assets/images/about-page-banner.png);
+  background-size: cover;
+}
+.solutions-page-banner{
+  background-image: url(../../public/assets/images/solutions-page-banner.png);
+  background-size: cover;
 }

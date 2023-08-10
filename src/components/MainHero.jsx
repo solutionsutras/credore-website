@@ -8,11 +8,12 @@ const MainHero = () => {
         <div className="homeBannerSection">
           <div className="banner-details">
             <h1 className="hero-heading font-medium">
-              Transforming{" "}
+              Empowering
+              <br></br>
               <span className="font-bold">
                 Financial Supply Chain Management
-              </span>{" "}
-              with <span className="font-bold">Blockchain Technology</span>
+              </span><br></br>
+              with <span className="font-bold">Verifiable Trust</span>
             </h1>
             <div className="mt-5">
               <button className="knowMore btn-primary">Know More</button>
@@ -28,7 +29,7 @@ const MainHero = () => {
             </figure>
           </div> */}
         </div>
-        <FactsnFigures/>
+        <FactsnFigures />
       </div>
     </section>
   );

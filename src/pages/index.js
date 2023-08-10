@@ -11,6 +11,7 @@ import Solutions from "../components/Solutions";
 import WhyCredore from "../components/WhyCredore";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import SupportedBy from "../components/SupportedBy";
 
 const App = () => {
   return (
@@ -41,6 +42,10 @@ const App = () => {
 
       <LazyShow>
         <WhyCredore />
+      </LazyShow>
+
+      <LazyShow>
+        <SupportedBy />
       </LazyShow>
 
       <LazyShow>
