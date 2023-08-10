@@ -1,5 +1,6 @@
 import React from "react";
 import VideoSection from "./VideoSection";
+import Image from "next/image";
 
 const Offerings = () => {
   return (
@@ -8,7 +9,7 @@ const Offerings = () => {
         <div className="why-section flex gap-4 items-center px-10">
           <div className="">
             <div className="p-5 pl-0">
-              <h1>Credore's Offerings</h1>
+              <h1>Credore&apos;s Offerings</h1>
             </div>
             <div className="heading">
               A blockchain-based IT infrastructure, incorporating common
@@ -18,10 +19,12 @@ const Offerings = () => {
               retrotraceable, accountable, and auditable for any necessary
               retention period.
             </div>
-            <div id="content" class="flex flex-col gap-5">
+            <div id="content" className="flex flex-col gap-5">
               <div className="flex gap-2 w-full ">
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
-                  <img src="assets/images/offerings/invoice-discounting.png" />
+                  <Image
+                    src={"assets/images/offerings/invoice-discounting.png"}
+                  />
 
                   <p className="text-[#29564b]  text-left">
                     Invoice discounting & Export Factoring (with PEPPOL standard
@@ -29,14 +32,20 @@ const Offerings = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
-                  <img src="assets/images/offerings/exchange-standardizedand-digital-originaldocuments.png" />
+                  <Image
+                    src={
+                      "assets/images/offerings/exchange-standardizedand-digital-originaldocuments.png"
+                    }
+                  />
 
                   <p className="text-[#29564b]  text-left">
                     Exchange standardizedand digital originaldocuments
                   </p>
                 </div>
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
-                  <img src="assets/images/offerings/true-decentralisation.png" />
+                  <Image
+                    src={"assets/images/offerings/true-decentralisation.png"}
+                  />
 
                   <p className="text-[#29564b]  text-left">
                     True decentralisation and high scalability using public
@@ -47,19 +56,19 @@ const Offerings = () => {
 
               <div className="flex gap-2 w-full ">
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
-                  <img
-                    src="assets/images/offerings/digital-standardised.png"
+                  <Image
+                    src={"assets/images/offerings/digital-standardised.png"}
                     width={100}
                   />
 
                   <p className="text-[#29564b]  text-left">
                     Fully digital standardised SCF business workflow harmonising
-                    ICC's DSI*
+                    ICC&apos;s DSI*
                   </p>
                 </div>
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
-                  <img
-                    src="assets/images/offerings/seamless-on-boarding.png"
+                  <Image
+                    src={"assets/images/offerings/seamless-on-boarding.png"}
                     width={100}
                   />
 
@@ -69,7 +78,7 @@ const Offerings = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
-                  <img src="assets/images/offerings/realtime-collaboration.png" />
+                  <Image src={"assets/images/offerings/realtime-collaboration.png"} />
 
                   <p className="text-[#29564b]  text-left">
                     Realtime multi-party collaboration
@@ -84,7 +93,7 @@ const Offerings = () => {
               {/* <div className="p-5 pl-0">
                 <h1>Our Team</h1>
               </div> */}
-              <img src="assets/images/team/the-team.png" />
+              <Image src={"assets/images/team/the-team.png"} />
             </div>
           </div>
         </div>
