@@ -12,7 +12,6 @@ import Solutions from "../components/Solutions";
 import WhyCredore from "../components/WhyCredore";
 import Offerings from "../components/Offerings";
 import AboutDetails from "../components/AboutDetails";
-import Team from "../components/team";
 
 const solutions = () => {
   return (
