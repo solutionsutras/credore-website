@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Form from "./RequestModal";
 
-function Footer() {
+const Footer = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
@@ -117,6 +117,6 @@ function Footer() {
       <Form isOpen={isOpen} closeModal={closeModal} openModal={openModal} />
     </footer>
   );
-}
+};
 
 export default Footer;
