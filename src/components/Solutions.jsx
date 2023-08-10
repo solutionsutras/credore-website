@@ -10,7 +10,7 @@ const Solutions = () => {
           </div>
           {/* <div className="heading">Lorem Ipsum is simply dummy text</div> */}
           <div className="heading">
-            Credore leverages ICC's Digital Standard Initiative recommended
+            Credore leverages ICC&apos;s Digital Standard Initiative recommended
             technology-neutral methodologies and blockchain enabling enterprises
             to synchronize complex, multipartybusiness processes with privacy
             and without moving data from systems of record. Ourinnovative
@@ -28,7 +28,7 @@ const Solutions = () => {
               </figure>
               <div className="tileHEading">for Sellers</div>
               <div className="tiletxt">
-                Credore's Invoice Discounting & Export Factoring solutions
+                Credore&apos;s Invoice Discounting & Export Factoring solutions
                 provides traders/sellers easy and seamless access to quick
                 working capitals required for day to day activities by keeping
                 its trade receivable as collateral.
@@ -44,7 +44,7 @@ const Solutions = () => {
               </figure>
               <div className="tileHEading">for Financial Institutions</div>
               <div className="tiletxt">
-                The integration of Credore's tokenization technology and
+                The integration of Credore&apos;s tokenization technology and
                 Peppol-based e-invoicing allows for the automation of trade
                 origination, providing banks with improved efficiency, security,
                 and access to new financing options.
