@@ -24,6 +24,7 @@ const Offerings = () => {
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
                   <Image
                     src={"assets/images/offerings/invoice-discounting.png"}
+                    alt=""
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -36,6 +37,7 @@ const Offerings = () => {
                     src={
                       "assets/images/offerings/exchange-standardizedand-digital-originaldocuments.png"
                     }
+                    alt=""
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -45,6 +47,7 @@ const Offerings = () => {
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
                   <Image
                     src={"assets/images/offerings/true-decentralisation.png"}
+                    alt=""
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -59,6 +62,7 @@ const Offerings = () => {
                   <Image
                     src={"assets/images/offerings/digital-standardised.png"}
                     width={100}
+                    alt=""
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -70,6 +74,7 @@ const Offerings = () => {
                   <Image
                     src={"assets/images/offerings/seamless-on-boarding.png"}
                     width={100}
+                    alt=""
                   />
 
                   <p className="text-[#29564b]  text-left">
@@ -78,7 +83,10 @@ const Offerings = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-2 p-2  bg-[#F9F7F6] max-w-[33%]">
-                  <Image src={"assets/images/offerings/realtime-collaboration.png"} />
+                  <Image
+                    src={"assets/images/offerings/realtime-collaboration.png"}
+                    alt=""
+                  />
 
                   <p className="text-[#29564b]  text-left">
                     Realtime multi-party collaboration

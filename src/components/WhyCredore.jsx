@@ -1,5 +1,6 @@
 import React from "react";
 import VideoSection from "./VideoSection";
+import Image from "next/image";
 
 const WhyCredore = () => {
   return (
