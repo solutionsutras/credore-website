@@ -23,7 +23,7 @@ const solutions = () => {
         </title>
       </Head>
       <Header />
-      <section className="section bg-[url(&apos;/assets/images/solutions-page-banner.jpg&apos;)]">
+      <section className={`section`}>
         <div className="container flex flex-col gap-[20px]">
           <div className="homeBannerSection">
             <div className="banner-details">
