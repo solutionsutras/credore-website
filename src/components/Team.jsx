@@ -1,6 +1,6 @@
 const Team = () => {
     return (
-<div className="container flex">
+<div className="container flex mt-20">
               {/* <div className="p-5 pl-0">
                 <h1>Our Team</h1>
               </div> */}
