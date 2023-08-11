@@ -1,5 +1,9 @@
 import React from "react";
 import Image from "next/image";
+// import {suppliers, banks, corporates} from "../constants/assets";
+import suppliers from  "./../../public/assets/images/suppliers.png";
+import banks from  "./../../public/assets/images/banks.png";
+import corporates from  "./../../public/assets/images/corporates.png";
 
 const Solutions = () => {
   return (
@@ -9,24 +13,22 @@ const Solutions = () => {
           <div className="p-5 pl-0">
             <h1 className="text-center">Our Solutions</h1>
           </div>
-          {/* <div className="heading">Lorem Ipsum is simply dummy text</div> */}
+          
           <div className="heading">
             Credore leverages ICC&apos;s Digital Standard Initiative recommended
             technology-neutral methodologies and blockchain enabling enterprises
-            to synchronize complex, multipartybusiness processes with privacy
-            and without moving data from systems of record. Ourinnovative
+            to synchronize complex, multi party business processes with privacy
+            and without moving data from systems of record. Our innovative
             approach helps prevent Duplicate Invoice Financing and unlocks
-            verifiable trust inthe financial supply chain.
+            verifiable trust in the financial supply chain.
           </div>
           <div className="otherDetails">
             <div className="tile">
               <figure>
                 <Image
-                  src={"/assets/images/suppliers.png"}
+                  src={suppliers}
                   alt=""
                   className="img-responsive"
-                  width={"100%"}
-                  height={"100%"}
                 />
               </figure>
               <div className="tileHEading">for Sellers</div>
@@ -40,11 +42,9 @@ const Solutions = () => {
             <div className="tile">
               <figure>
                 <Image
-                  src={"/assets/images/banks.png"}
+                  src={banks}
                   alt="exprt-img"
                   className="img-responsive"
-                  width={"100%"}
-                  height={"100%"}
                 />
               </figure>
               <div className="tileHEading">for Financial Institutions</div>
@@ -58,11 +58,9 @@ const Solutions = () => {
             <div className="tile">
               <figure>
                 <Image
-                  src={"/assets/images/corporates.png"}
+                  src={corporates}
                   alt="exprt-img"
                   className="img-responsive"
-                  width={"100%"}
-                  height={"100%"}
                 />
               </figure>
               <div className="tileHEading">for Corporates</div>
@@ -74,11 +72,11 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className="btnBx">
+          {/* <div className="btnBx">
             <button type="button" className="btn-primary speak-expert">
               View Details
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -4,14 +4,9 @@ import About from "../components/About";
 import Community from "../components/Community";
 import Header from "../components/Header";
 import LazyShow from "../components/LazyShow";
-import MainHero from "../components/MainHero";
-import FactsnFigures from "../components/FactsnFigures";
-import MainSlider from "../components/MainSlider";
-import Solutions from "../components/Solutions";
-import WhyCredore from "../components/WhyCredore";
 import Offerings from "../components/Offerings";
 import AboutDetails from "../components/AboutDetails";
-// import Team from "../components/team";
+import Team from "../components/Team";
 import Footer from "../components/Footer";
 
 const about_us = () => {
@@ -58,12 +53,14 @@ const about_us = () => {
       <LazyShow>
         <AboutDetails />
       </LazyShow>
+      
       <LazyShow>
         <Offerings />
       </LazyShow>
-      {/* <LazyShow>
+      
+      <LazyShow>
         <Team />
-      </LazyShow> */}
+      </LazyShow>
 
       <LazyShow>
         <Footer />

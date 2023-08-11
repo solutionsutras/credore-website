@@ -102,13 +102,10 @@ const Footer = () => {
           <div className="mediaLinks items-center">
             <ul className="otherLinks">
               <li>
-                <a href="#">Privacy</a>
+                <a href="privacy_policy">Privacy Policy</a>
               </li>
               <li>
-                <a href="#">Terms</a>
-              </li>
-              <li>
-                <a href="#">Legal</a>
+                <a href="cookies_policy">Cookies Policy</a>
               </li>
             </ul>
           </div>

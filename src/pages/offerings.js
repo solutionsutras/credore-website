@@ -18,35 +18,27 @@ const solutions = () => {
     <div className="bg-background">
       <Head>
         <title>
-          Welcome to Credore - Revolutionary Fintech Transforming Financial
-          Supply Chain Management with Blockchain Technology
+          Solutions - Revolutionary Fintech Transforming Financial Supply Chain
+          Management with Blockchain Technology
         </title>
       </Head>
       <Header />
-      {/* <MainSlider/> */}
-      {/* <MainHero /> */}
-      <section
-        className="section solutions-page-banner"
-        // style={{
-        //   width: "100%",
-        //   backgroundImage: "url(../../public/assets/images/hero-bg.png)",
-        // }}
-      >
+      <section className="section bg-[url('/assets/images/solutions-page-banner.jpg')]">
         <div className="container flex flex-col gap-[20px]">
           <div className="homeBannerSection">
             <div className="banner-details">
-              <h1 className="hero-heading font-medium text-[#f15928] text-[#f15928]">
-                Our Solutions
+              <h1 className="hero-heading font-medium text-[#f15928] text-[#f15928] text-4xl">
+                Credore's Offerings
               </h1>
             </div>
           </div>
         </div>
       </section>
-      
-      <LazyShow>
+
+      {/* <LazyShow>
         <AboutDetails />
-      </LazyShow>
-      
+      </LazyShow> */}
+
       <LazyShow>
         <Offerings />
       </LazyShow>

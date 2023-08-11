@@ -7101,7 +7101,6 @@ html {
 }
 .banner-details .hero-heading {
   margin-bottom: 15px;
-  font-size: 38px;
   max-width: 470px;
   line-height: normal;
   /* color: #000; */
@@ -7169,8 +7168,8 @@ html {
   display: list-item;
   padding: 0;
   padding-bottom: 0.5rem;
-  margin:0;
-  min-height:0;
+  margin: 0;
+  min-height: 0;
   background-color: transparent;
 }
 .facts-section label {
@@ -7368,8 +7367,8 @@ html {
   height: 100%;
 }
 .why-section .heading {
-  color: #29564b;
-  font-size: large;
+  /* color: #29564b; */
+  /* font-size: large; */
   line-height: normal;
   margin-bottom: 15px;
   font-weight: 500;
@@ -8042,11 +8041,18 @@ html {
   margin-bottom: 0.75rem;
 }
 
-.about-page-banner{
+.about-page-banner {
   background-image: url(../../public/assets/images/about-page-banner.png);
   background-size: cover;
 }
-.solutions-page-banner{
+/* .solutions-page-banner{
   background-image: url(../../public/assets/images/solutions-page-banner.png);
   background-size: cover;
+} */
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid #BC5635;
+  border-bottom: 50px solid transparent;
 }

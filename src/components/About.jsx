@@ -12,7 +12,7 @@ const About = () => {
               <h1>About Credore</h1>
             </div>
             <div className="heading">
-              Transforming Financial SupplyChain Management: Unlocking
+              Transforming Financial Supply Chain Management: Unlocking
               Verifiable Trust with Credore
             </div>
             <div className="detailTxt">

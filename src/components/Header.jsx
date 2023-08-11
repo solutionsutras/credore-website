@@ -61,9 +61,9 @@ const WhyCredore = () => {
           </li>
 
           <li className="">
-            <Link href="/solutions">
+            <Link href="/offerings">
               <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
-                Solutions
+                Offerings
               </a>
             </Link>
           </li>

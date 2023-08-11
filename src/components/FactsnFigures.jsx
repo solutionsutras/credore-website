@@ -52,7 +52,7 @@ const FactsnFigures = () => {
             <div>
               <ul>
                 <li>
-                  <p>Safeguard sensitive information andclient data</p>
+                  <p>Safeguard sensitive information and client data</p>
                 </li>
                 <li>
                   <p>Ensure compliance with data privacy regulations</p>
@@ -86,7 +86,7 @@ const FactsnFigures = () => {
                   <p>Improve transparency and reduce discrepancies</p>
                 </li>
                 <li>
-                  <p>Enhance trust and credibility infinancial transactions</p>
+                  <p>Enhance trust and credibility in financial transactions</p>
                 </li>
               </ul>
             </div>
