@@ -18,17 +18,17 @@ const solutions = () => {
     <div className="bg-background">
       <Head>
         <title>
-          Solutions - Revolutionary Fintech Transforming Financial Supply Chain
+        Our Offerings - Revolutionary Fintech Transforming Financial Supply Chain
           Management with Blockchain Technology
         </title>
       </Head>
       <Header />
-      <section className={`section`}>
+      <section className={'section inner-page-banner'}>
         <div className="container flex flex-col gap-[20px]">
           <div className="homeBannerSection">
             <div className="banner-details">
               <h1 className="hero-heading font-medium text-[#f15928] text-[#f15928] text-4xl">
-                Credore&apos;s Offerings
+                Our Offerings
               </h1>
             </div>
           </div>

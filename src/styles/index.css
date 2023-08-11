@@ -8048,6 +8048,7 @@ html {
 .inner-page-banner{
   background-image: url(../../public/assets/images/Test/inner-page-bg1.jpg);
   background-size: cover;
+  padding:60px 0
 }
 .arrow {
   width: 0;

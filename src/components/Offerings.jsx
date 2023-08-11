@@ -14,9 +14,11 @@ const Offerings = () => {
       <div className="container">
         <div className="why-section flex gap-4 items-center px-10">
           <div className="">
-            <div className="m-10"></div>
-            <div className="text-xl mb-10 font-medium">
-              A blockchain-based IT infrastructure, incorporating common
+            <div className="m-10">
+              {/* <h1>Credore&apos;s Offerings</h1> */}
+            </div>
+            <div className="text-xl mb-10 font-normal">
+              We offer blockchain-based IT infrastructure, incorporating common
               standards and best practices, aims to ensure that every digital
               interaction within financial supply chain management transactions
               in international trade becomes verifiable, non-repudiable,
@@ -30,14 +32,14 @@ const Offerings = () => {
 
                   <p className="text-[#29564b] text-left font-medium text-sm">
                     Invoice discounting & Export Factoring (with PEPPOL standard
-                    eInvoicing)
+                    e-Invoicing)
                   </p>
                 </div>
                 <div className="flex items-center gap-5 p-5 bg-[#F9F7F6] w-1/2">
                   <Image src={offering2} alt="" />
 
                   <p className="text-[#29564b] text-left font-medium text-sm">
-                    Exchange standardizedand digital originaldocuments
+                    Exchange standardized and digital original documents
                   </p>
                 </div>
               </div>
@@ -66,8 +68,8 @@ const Offerings = () => {
                   <Image src={offering5} alt="" />
 
                   <p className="text-[#29564b] text-left font-medium text-sm">
-                    Seamless on-boarding,KYC and KYB usingGlobal Legal
-                    EntityIdentifier
+                    Seamless on-boarding,KYC and KYB using Global Legal
+                    Entity Identifier
                   </p>
                 </div>
                 <div className="flex items-center gap-5 p-5 bg-[#F9F7F6] w-1/2">

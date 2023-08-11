@@ -54,9 +54,9 @@ const about_us = () => {
         <AboutDetails />
       </LazyShow>
       
-      <LazyShow>
+      {/* <LazyShow>
         <Offerings />
-      </LazyShow>
+      </LazyShow> */}
       
       <LazyShow>
         <Team />
