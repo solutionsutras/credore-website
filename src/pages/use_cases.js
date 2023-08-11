@@ -11,12 +11,13 @@ const use_cases = () => {
     <div className="bg-background">
       <Head>
         <title>
-          Use Cases - Crdore - Revolutionary Fintech Transforming Financial Supply Chain
-          Management with Blockchain Technology
+          Use Cases - Crdore - Revolutionary Fintech Transforming Financial
+          Supply Chain Management with Blockchain Technology
         </title>
       </Head>
       <Header />
-      <section className="section bg-[url('/assets/images/inner-page-banner.jpg')]">
+      {/* <section className="section bg-[url('/assets/images/inner-page-banner.jpg')]"> */}
+      <section className="section inner-page-banner">
         <div className="container flex flex-col gap-[20px]">
           <div className="homeBannerSection">
             <div className="banner-details">

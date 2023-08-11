@@ -17,7 +17,7 @@ const UseCases = () => {
           <div className="w-full">
             <div className="m-10"></div>
 
-            <div id="content" className="flex flex-col gap-5">
+            <div id="content" className="flex flex-col gap-3">
               {useCaseData.map((item, index) => {
                 return (
                   <div
@@ -28,10 +28,10 @@ const UseCases = () => {
                         : "flex w-full gap-5 items-center justify-end"
                     }
                   >
-                    <div className="flex w-2/5 items-center">
-                      <div className="p-5 pr-2 bg-[#BC5635]">
-                        <h1 className="text-sm font-medium text-white">
-                          Step {index + 1} - {item.title}
+                    <div className="flex w-2/5 items-center justify-end">
+                      <div className="p-2 bg-[#BC5635]">
+                        <h1 className="text-xsm font-medium text-white">
+                          {index + 1} - {item.title}
                         </h1>
                       </div>
                       <div className="arrow" />

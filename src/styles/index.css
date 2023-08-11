@@ -8045,14 +8045,14 @@ html {
   background-image: url(../../public/assets/images/about-page-banner.png);
   background-size: cover;
 }
-/* .solutions-page-banner{
-  background-image: url(../../public/assets/images/solutions-page-banner.png);
+.inner-page-banner{
+  background-image: url(../../public/assets/images/Test/inner-page-bg1.jpg);
   background-size: cover;
-} */
+}
 .arrow {
   width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-left: 100px solid #BC5635;
-  border-bottom: 50px solid transparent;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-left: 40px solid #BC5635;
+    border-bottom: 24px solid transparent;
 }

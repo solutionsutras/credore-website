@@ -22,6 +22,7 @@ const WhyCredore = () => {
                     <Image
                       src={"/assets/images/efficiency.png"}
                       className="image is-128x128"
+                      alt=""
                       width={'100%'}
                       height={'100%'}
                     />
@@ -40,6 +41,7 @@ const WhyCredore = () => {
                     <Image
                       src={"/assets/images/security.png"}
                       className="image is-128x128"
+                      alt=""
                       width={'100%'}
                       height={'100%'}
                     />
@@ -58,6 +60,7 @@ const WhyCredore = () => {
                     <Image
                       src={"/assets/images/transparency.png"}
                       className="image is-128x128"
+                      alt=""
                       width={'100%'}
                       height={'100%'}
                     />
@@ -78,6 +81,7 @@ const WhyCredore = () => {
                     <Image
                       src={"/assets/images/trust.png"}
                       className="image is-128x128"
+                      alt=""
                       width={'100%'}
                       height={'100%'}
                     />
@@ -97,6 +101,7 @@ const WhyCredore = () => {
                     <Image
                       src={"/assets/images/experience.png"}
                       className="image is-128x128"
+                      alt=""
                       width={'100%'}
                       height={'100%'}
                     />
@@ -114,6 +119,7 @@ const WhyCredore = () => {
                     <Image
                       src={"/assets/images/track-record.png"}
                       className="image is-128x128"
+                      alt=""
                       width={'100%'}
                       height={'100%'}
                     />
