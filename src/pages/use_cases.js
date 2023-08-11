@@ -11,7 +11,7 @@ const use_cases = () => {
     <div className="bg-background">
       <Head>
         <title>
-          Use Cases - Crdore - Revolutionary Fintech Transforming Financial
+          Use Cases - Credore - Revolutionary Fintech Transforming Financial
           Supply Chain Management with Blockchain Technology
         </title>
       </Head>

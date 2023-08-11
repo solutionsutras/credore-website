@@ -8045,15 +8045,15 @@ html {
   background-image: url(../../public/assets/images/about-page-banner.png);
   background-size: cover;
 }
-.inner-page-banner{
-  background-image: url(../../public/assets/images/Test/inner-page-bg1.jpg);
+.inner-page-banner {
+  background-image: url(../../public/assets/images/inner-page-bg.jpg);
   background-size: cover;
-  padding:60px 0
+  padding: 60px 0;
 }
 .arrow {
   width: 0;
-    height: 0;
-    border-top: 24px solid transparent;
-    border-left: 40px solid #BC5635;
-    border-bottom: 24px solid transparent;
+  height: 0;
+  border-top: 24px solid transparent;
+  border-left: 40px solid #bc5635;
+  border-bottom: 24px solid transparent;
 }
