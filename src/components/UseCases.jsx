@@ -21,6 +21,7 @@ const UseCases = () => {
               {useCaseData.map((item, index) => {
                 return (
                   <div
+                    key={index}
                     className={
                       index % 2 == 0
                         ? "flex w-full gap-5 items-center"
@@ -38,11 +39,11 @@ const UseCases = () => {
                     <div class="w-1/2 border-1 p-5 py-2">
                       {item.details.map((dt, i) => {
                         return (
-                          <>
+                          <div key={i}>
                             <p className="text-[#29564b] text-left font-normal text-[14px] mb-2">
                               {dt}
                             </p>
-                          </>
+                          </div>
                         );
                       })}
                     </div>

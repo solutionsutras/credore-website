@@ -23,12 +23,12 @@ const solutions = () => {
         </title>
       </Head>
       <Header />
-      <section className="section bg-[url('/assets/images/solutions-page-banner.jpg')]">
+      <section className="section bg-[url(&apos;/assets/images/solutions-page-banner.jpg&apos;)]">
         <div className="container flex flex-col gap-[20px]">
           <div className="homeBannerSection">
             <div className="banner-details">
               <h1 className="hero-heading font-medium text-[#f15928] text-[#f15928] text-4xl">
-                Credore's Offerings
+                Credore&apos;s Offerings
               </h1>
             </div>
           </div>
