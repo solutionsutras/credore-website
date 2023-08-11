@@ -77,12 +77,11 @@ const WhyCredore = () => {
           </li>
 
           <li className="">
-            <a
-              href="/use_cases"
-              className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker"
-            >
-              Use Cases
-            </a>
+            <Link href="/use_cases">
+              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
+                Use Cases
+              </a>
+            </Link>
           </li>
           <li className="">
             <button
