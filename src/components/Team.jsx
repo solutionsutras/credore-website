@@ -1,3 +1,7 @@
+import React from "react";
+
+import Image from "next/image";
+
 const Team = () => {
     return (
 <div className="container flex mt-20">
