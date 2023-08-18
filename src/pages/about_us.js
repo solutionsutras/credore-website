@@ -6,8 +6,8 @@ import LazyShow from "../components/LazyShow";
 import Offerings from "../components/Offerings";
 import AboutDetails from "../components/AboutDetails";
 import Team from "../components/Team";
-import Community from "../components/community";
-import Footer from "../components/footer";
+import Community from "../components/Community";
+import Footer from "../components/Footer";
 
 const about_us = () => {
   return (
