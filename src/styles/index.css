@@ -145,7 +145,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 body {
   color: #2c5b50;
@@ -6952,6 +6952,7 @@ html {
 .section {
   padding: 0px 0px 60px;
   background-color: #fff;
+  background-position: center;
 }
 
 @media screen and (max-width: 540px) {
@@ -7092,8 +7093,7 @@ html {
   display: flex;
   align-items: center;
   width: 60%;
-  /* justify-content: space-between; */
-  padding-top: 100px;
+  padding:80px 0px 20px;
 }
 .banner-details {
   display: flex;
@@ -7101,10 +7101,11 @@ html {
 }
 .banner-details .hero-heading {
   margin-bottom: 15px;
-  max-width: 470px;
-  line-height: normal;
+  /* max-width: 470px; */
+  line-height: revert;
   /* color: #000; */
   color: #24554a;
+  /* color:#9d2701; */
   /* text-transform: capitalize; */
 }
 .banner-details .knowMore {
@@ -7143,16 +7144,16 @@ html {
 .facts-section li {
   width: 100%;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-around;
   flex-direction: column;
   border: 1px solid #29564b9e;
   box-shadow: 0px 5px 5px 0px #29564b87;
-  padding: 20px 5px 20px 15px;
-  margin: 5px 10px;
+  /* padding: 20px 5px; */
+  margin: 10px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.5);
-  min-height: 275px;
+  min-height: 220px;
 }
 /* .facts-section li:first-child {
   border: none;
@@ -7172,20 +7173,20 @@ html {
   min-height: 0;
   background-color: transparent;
 }
-.facts-section label {
+/* .facts-section label {
   font-size: large;
   line-height: normal;
   font-weight: 700;
   color: #f15928;
   margin-bottom: 3px;
-}
+} 
 .facts-section span {
   font-size: 18px;
   color: #666;
   font-weight: normal;
   width: 25px;
   display: inline-block;
-}
+} */
 
 @media screen and (max-width: 540px) {
   .facts-section {
@@ -7285,9 +7286,9 @@ html {
   }
 }
 
-.detailSectn {
+/* .detailSectn {
   position: relative;
-}
+} */
 .detailSectn figure {
   display: flex;
   height: 500px;
@@ -7296,13 +7297,13 @@ html {
   width: 100%;
   object-fit: cover;
 }
-.detailSectn .detailSecBx {
-  /* padding: 50px; */
-  /* top: 0;
+/* .detailSectn .detailSecBx {
+  padding: 50px;
+  top: 0;
   left: 0;
   width: 50%;
-  height: 100%; */
-}
+  height: 100%;
+} */
 .detailSectn .heading {
   color: #29564b;
   font-size: larger;
@@ -7931,7 +7932,7 @@ html {
   background-image: url(../../public/assets/images/hero-bg.png);
   min-height: 550px;
   /* max-height: 680px; */
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .about-section {
@@ -8046,7 +8047,8 @@ html {
   background-size: cover;
 }
 .inner-page-banner {
-  background-image: url(../../public/assets/images/inner-page-bg.jpg);
+  background-image: url(../../public/assets/images/inner-page-bg.png);
+  /* background-image: url(../../public/assets/images/blockchain-banner2.jpg); */
   background-size: cover;
   padding: 60px 0;
 }
@@ -8056,4 +8058,101 @@ html {
   border-top: 24px solid transparent;
   border-left: 40px solid #bc5635;
   border-bottom: 24px solid transparent;
+}
+
+
+.menus {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.menu-items {
+  position: relative;
+  font-size: 14px;
+}
+
+.menu-items a {
+  display: block;
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu-items button {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+button span {
+  margin-left: 3px;
+}
+
+.menu-items > a, .menu-items button {
+  text-align: left;
+  padding: 0.7rem 1rem;
+}
+
+.menu-items a:hover,
+.menu-items button:hover {
+  background-color: #0B9173;
+  color:#FFF;
+  text-decoration: none;
+}
+
+.arrow::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.28em;
+  vertical-align: 0.09em;
+  border-top: 0.42em solid;
+  border-right: 0.32em solid transparent;
+  border-left: 0.32em solid transparent;
+}
+
+.dropdown {
+  position: absolute;
+  box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+    0 4px 6px -2px rgba(71, 63, 79, 0.16);
+  font-size: 0.875rem;
+  z-index: 9999;
+  min-width: 10rem;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  display: none;
+}
+
+.dropdown.show {
+  display: block;
+}
+
+.dropdown .dropdown-submenu {
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+/* content */
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 20px;
+}
+
+.content h2 {
+  margin-bottom: 1rem;
+}
+
+.content a {
+  color: #cc3852;
+  margin-right: 10px;
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import Head from "next/head";
 import About from "../components/About";
-import Community from "../components/Community";
 import Header from "../components/Header";
 import LazyShow from "../components/LazyShow";
 import Offerings from "../components/Offerings";
 import AboutDetails from "../components/AboutDetails";
 import Team from "../components/Team";
-import Footer from "../components/Footer";
+import Community from "../components/community";
+import Footer from "../components/footer";
 
 const about_us = () => {
   return (
@@ -22,7 +22,7 @@ const about_us = () => {
       {/* <MainSlider/> */}
       {/* <MainHero /> */}
       <section
-        className="section about-page-banner"
+        className="section inner-page-banner"
         // style={{
         //   width: "100%",
         //   backgroundImage: "url(../../public/assets/images/hero-bg.png)",
@@ -31,9 +31,9 @@ const about_us = () => {
         <div className="container flex flex-col gap-[20px]">
           <div className="homeBannerSection">
             <div className="banner-details">
-              {/* <h1 className="hero-heading font-medium text-[#f15928] text-[#f15928]">
-                About Us
-              </h1> */}
+              <h1 className="hero-heading font-medium text-[#f15928] text-[#f15928]">
+              How Credore Helps
+              </h1>
             </div>
             {/* <div className="bannerImage">
             <figure>

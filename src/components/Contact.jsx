@@ -115,19 +115,11 @@ const Contact = () => {
                   <p>
                     <a
                       className="font-medium text-[#29564b] ml-2 text-xsm"
-                      href="tel:+919876543210"
+                      href="tel:+918600936299"
                     >
                       +91-86009 36299
                     </a>
                   </p>
-                  {/* <p>
-                    <a
-                      className="font-medium text-[#29564b] ml-2 text-xsm"
-                      href="tel:+911234567890"
-                    >
-                      +91-123 456 7890
-                    </a>
-                  </p> */}
                 </div>
               </div>
 
@@ -187,9 +179,9 @@ const Contact = () => {
                     value={formik.values.name}
                     placeholder="Your Name *"
                   />
-                  <span className="text-xs font-light text-red-600">
+                  {/* <span className="text-xs font-light text-red-600">
                     {formik.touched.name && formik.errors.name}
-                  </span>
+                  </span> */}
                 </div>
 
                 <div className="py-2 flex items-center gap-4">
@@ -207,9 +199,9 @@ const Contact = () => {
                       value={formik.values.email}
                       placeholder="Your Email ID *"
                     />
-                    <span className="text-xs font-light text-red-600">
+                    {/* <span className="text-xs font-light text-red-600">
                       {formik.touched.email && formik.errors.email}
-                    </span>
+                    </span> */}
                   </div>
 
                   <div className="w-1/2">
@@ -226,9 +218,9 @@ const Contact = () => {
                       value={formik.values.phone}
                       placeholder="Your Phone No *"
                     />
-                    <span className="text-xs font-light text-red-600">
+                    {/* <span className="text-xs font-light text-red-600">
                       {formik.touched.phone && formik.errors.phone}
-                    </span>
+                    </span> */}
                   </div>
                 </div>
 
@@ -247,9 +239,9 @@ const Contact = () => {
                       value={formik.values.org}
                       placeholder="Your Company Name *"
                     />
-                    <span className="text-xs font-light text-red-600">
+                    {/* <span className="text-xs font-light text-red-600">
                       {formik.touched.org && formik.errors.org}
-                    </span>
+                    </span> */}
                   </div>
 
                   <div className="w-1/2">
@@ -266,19 +258,19 @@ const Contact = () => {
                       value={formik.values.country}
                       placeholder="Country (Optional)"
                     />
-                    <span className="text-xs font-light text-red-600">
+                    {/* <span className="text-xs font-light text-red-600">
                       {formik.touched.country && formik.errors.country}
-                    </span>
+                    </span> */}
                   </div>
                 </div>
 
                 <div className="py-2">
                   <textarea
-                    className={`w-full rounded-sm border bg-gray-100 px-4 py-2 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 lg:w-full ${
+                    className={`block w-full rounded-sm border px-4 py-2 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 lg:w-full ${
                       formik.touched.query && Boolean(formik.errors.query)
                         ? " border-[#F15928] text-red-700 bg-[#FFFFFF]"
                         : "border-[#81A79D] bg-[#FEFEFE]"
-                    } px-5 py-2 border-1 border-solid p-2 placeholder:text-slate-400 text-sm opacity-90 focus:border-gray-500 focus:border-1 peer`}
+                    }px-5 py-2 border-1 border-solid p-2 placeholder:text-slate-400 text-sm opacity-90 focus:border-gray-500 focus:border-1 peer`}
                     type="text"
                     query="query"
                     onChange={formik.handleChange}
@@ -286,9 +278,9 @@ const Contact = () => {
                     value={formik.values.query}
                     placeholder="Your Query *"
                   />
-                  <span className="text-xs font-light text-red-600">
+                  {/* <span className="text-xs font-light text-red-600">
                     {formik.touched.query && formik.errors.query}
-                  </span>
+                  </span> */}
                 </div>
 
                 <div className="mt-2">

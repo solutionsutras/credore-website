@@ -13,9 +13,10 @@ import Contact from "../components/Contact";
 import Footer from "../components/footer";
 import SupportedBy from "../components/SupportedBy";
 import ManageCookies from "../components/ManageCookies";
+import WorkInProgress from "../components/WorkInProgress";
 
 
-const App = () => {
+const work_in_progress = () => {
   return (
     <div className="bg-background">
       <Head>
@@ -26,33 +27,7 @@ const App = () => {
       </Head>
       <Header />
 
-      {/* <MainSlider/> */}
-
-      <MainHero />
-
-      {/* <LazyShow>
-        <FactsnFigures />
-      </LazyShow> */}
-
-      <LazyShow id="about">
-        <About />
-      </LazyShow>
-
-      <LazyShow>
-        <Solutions />
-      </LazyShow>
-
-      {/* <LazyShow>
-        <WhyCredore />
-      </LazyShow> */}
-
-      <LazyShow>
-        <SupportedBy />
-      </LazyShow>
-
-      <LazyShow>
-        <Contact />
-      </LazyShow>
+      <WorkInProgress />
 
       <LazyShow>
         <Footer />
@@ -68,4 +43,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default work_in_progress;

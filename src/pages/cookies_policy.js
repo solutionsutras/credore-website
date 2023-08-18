@@ -1,25 +1,17 @@
 import React from "react";
 import Head from "next/head";
-import About from "../components/About";
-import Community from "../components/Community";
 import Header from "../components/Header";
 import LazyShow from "../components/LazyShow";
-import MainHero from "../components/MainHero";
-import FactsnFigures from "../components/FactsnFigures";
-import MainSlider from "../components/MainSlider";
-import Solutions from "../components/Solutions";
-import WhyCredore from "../components/WhyCredore";
-import Offerings from "../components/Offerings";
-import AboutDetails from "../components/AboutDetails";
-// import Team from "../components/team";
 import Footer from "../components/Footer";
+import CookiesPolicy from "../components/CookiesPolicy";
+import Community from "../components/Community";
 
-const privacy_policy = () => {
+const cookies_policy = () => {
   return (
     <div className="bg-background">
       <Head>
         <title>
-          Privacy Policy - Credore - Revolutionary Fintech Transforming Financial
+          Cookies Policy - Credore - Revolutionary Fintech Transforming Financial
           Supply Chain Management with Blockchain Technology
         </title>
       </Head>
@@ -47,18 +39,10 @@ const privacy_policy = () => {
           </div>
         </div>
       </section>
-      {/* <LazyShow>
-        <FactsnFigures />
-      </LazyShow> */}
+      
       <LazyShow>
-        <AboutDetails />
+        <CookiesPolicy />
       </LazyShow>
-      <LazyShow>
-        <Offerings />
-      </LazyShow>
-      {/* <LazyShow>
-        <Team />
-      </LazyShow> */}
 
       <LazyShow>
         <Footer />
@@ -71,4 +55,4 @@ const privacy_policy = () => {
   );
 };
 
-export default privacy_policy;
+export default cookies_policy;

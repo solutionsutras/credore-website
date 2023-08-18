@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { SiAdguard, SiKdenlive, SiSpringsecurity, SiFsecure } from "react-icons/si";
+import { AiOutlineFileProtect } from "react-icons/ai";
+import { FaFileInvoiceDollar, FaShieldVirus } from "react-icons/fa";
 
 const FactsnFigures = () => {
   return (
@@ -7,113 +10,95 @@ const FactsnFigures = () => {
       <div className="container">
         <ul className="facts-section">
           <li>
-            <div className="flex benefits items-center pb-2 gap-2">
-              <Image
-                src="/assets/images/benefits/streamline-operations.png"
-                height={60}
-                width={60}
-                alt="Streamlined FSCM Operations"
-              />
-              <div>
-                <label>Streamlined</label>
-                <h1 className="text text-sm">FSCM Operations</h1>
+            <div className="flex benefits items-center mb-0 gap-2 w-full p-3 py-4 ">
+              <div className="w-1/3">
+                <SiSpringsecurity size={48} color="#f15928" style={{}}/>
+              </div>
+              <div className="w-full">
+                <label className="text-xsm text-[#f15928] leading-[0.5rem] font-bold">
+                  {/* Deduplication of Invoices and Negotiable Documents */}
+                  Deduplication of Invoices and Documents
+                </label>
               </div>
             </div>
-            <div>
+            <div className="w-full p-2 pl-4 bg-[#FFF]">
               <ul>
                 <li>
-                  <p>Simplify complex multiparty processes.</p>
+                  <p>Prevent Duplicate Payments</p>
                 </li>
                 <li>
-                  <p>
-                    Synchronize business operations across different systems
-                  </p>
-                </li>
-                <li>
-                  <p>Enhance efficiency and reduce overhead costs</p>
+                  <p>Ensure Reliable Verification</p>
                 </li>
               </ul>
             </div>
           </li>
 
           <li>
-            <div className="flex benefits items-center pb-2 gap-2">
-              <Image
-                src="/assets/images/benefits/enhance-security.png"
-                height={60}
-                width={60}
-                alt="Enhanced Data Privacy & Security"
-              />
-              <div>
-                <label>Enhanced</label>
-                <h1 className="text text-sm">Data Security</h1>
+            <div className="flex benefits items-center mb-0 gap-2 w-full p-3 py-4 ">
+              <div className="w-1/3">
+                <FaFileInvoiceDollar size={48}  color="#f15928" />
+              </div>
+              <div className="w-full">
+                <label className="text-xsm text-[#f15928] leading-[0.5rem] font-bold">
+                  Invoice Financing and Export Factoring <br></br>
+                </label>
+                {/* <span className="text-xsm text-[#444] leading-[0.5rem] font-bold">
+                  Invoices and Negotiable Documents
+                </span> */}
               </div>
             </div>
-            <div>
+            <div className="w-full p-2 pl-4 bg-[#FFF]">
               <ul>
                 <li>
-                  <p>Safeguard sensitive information and client data</p>
+                  <p>Accelerate Cash Flow</p>
                 </li>
                 <li>
-                  <p>Ensure compliance with data privacy regulations</p>
-                </li>
-                <li>
-                  <p>Protect against data breaches and fraudulent activities</p>
+                  <p>Empower Business Growth</p>
                 </li>
               </ul>
             </div>
           </li>
 
           <li>
-            <div className="flex benefits items-center pb-2 gap-2">
-              <Image
-                src="/assets/images/benefits/mitigate-risks.png"
-                height={60}
-                width={60}
-                alt="Mitigate Risks"
-              />
-              <div>
-                <label>Mitigate</label>
-                <h1 className="text text-sm">Risks & Threats</h1>
+            <div className="flex benefits items-center mb-0 gap-2 w-full p-3 py-4 ">
+              <div className="w-1/3">
+                <SiFsecure size={48}  color="#f15928"/>
+              </div>
+              <div className="w-full">
+                <label className="text-xsm text-[#f15928] leading-[0.5rem] font-bold">
+                  Enhanced Risk Mitigation
+                </label>
               </div>
             </div>
-            <div>
+            <div className="w-full p-2 pl-4 bg-[#FFF]">
               <ul>
                 <li>
-                  <p>Minimize the risk of duplicate invoice financing</p>
+                  <p>Strengthen Security & Compliance</p>
                 </li>
                 <li>
-                  <p>Improve transparency and reduce discrepancies</p>
-                </li>
-                <li>
-                  <p>Enhance trust and credibility in financial transactions</p>
+                  <p>Optimize Lending Decisions</p>
                 </li>
               </ul>
             </div>
           </li>
           <li>
-            <div className="flex benefits items-center pb-2 gap-2">
-              <Image
-                src="/assets/images/benefits/drive-efficiency.png"
-                height={60}
-                width={60}
-                alt="Seamless Collaboration"
-              />
-              <div>
-                <label>Seamless</label>
-                <h1 className="text text-sm">Collaboration</h1>
+            <div className="flex benefits items-center mb-0 gap-2 w-full p-3 py-4 ">
+              <div className="w-1/3">
+                <SiKdenlive size={48}  color="#f15928"/>
+              </div>
+              <div className="w-full">
+                <label className="text-xsm text-[#f15928] leading-[0.5rem] font-bold">
+                  Real-Time Transaction Visibility
+                </label>
               </div>
             </div>
-            <div>
+            <div className="w-full p-2 pl-4 bg-[#FFF]">
               <ul>
                 <li>
-                  <p>Enable secure collaboration with business partners</p>
+                  <p>Gain Transparent Insights</p>
                 </li>
                 <li>
-                  <p>Share information while maintaining confidentiality</p>
-                </li>
-                <li>
-                  <p>Foster trust and strengthen relationships</p>
+                  <p>Enable Informed Decision-Making</p>
                 </li>
               </ul>
             </div>

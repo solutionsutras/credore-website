@@ -8,12 +8,11 @@ const MainHero = () => {
         <div className="homeBannerSection">
           <div className="banner-details">
             <h1 className="hero-heading font-medium">
-              Empowering
+              Empowering{" "}
+              <span className="font-bold">Financial Supply Chains,</span>
+              {" "}Elevating <span className="font-bold">Trust</span> with{" "}
+              <span className="font-bold">Verified Deduplication</span>
               <br></br>
-              <span className="font-bold">
-                Financial Supply Chain Management
-              </span><br></br>
-              with <span className="font-bold">Verifiable Trust</span>
             </h1>
             <div className="mt-5">
               <button className="knowMore btn-primary">Know More</button>

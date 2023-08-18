@@ -1,5 +1,7 @@
 import React from "react";
 import VideoSection from "./VideoSection";
+import Image from "next/image";
+import HowCredoreHelps from "../../public/assets/images/how-credore-helps.png";
 
 const AboutDetails = () => {
   return (
@@ -7,9 +9,9 @@ const AboutDetails = () => {
       <div className="container">
         <div className="detailSectn flex gap-4 items-center">
           <div className="detailSecBx p-5 w-full">
-            <div className="p-5 pl-0">
-              <h1>About Credore</h1>
-            </div>
+            {/* <div className="p-5 pl-0">
+              <h1>How Credore Helps</h1>
+            </div> */}
             <div className="heading">
               Transforming Financial SupplyChain Management: Unlocking
               Verifiable Trust with Credore
@@ -17,11 +19,9 @@ const AboutDetails = () => {
             <div className="detailTxt">
               <p>
                 Credore is a fast growing, blockchain powered fintech company
-                which is dedicated to promoting inclusivity, collaboration, and
-                digitization in the field of trade finance. The company offers
-                solutions such as factoring and receivables management to small
-                and medium-sized enterprises (MSMEs) in order to help them
-                overcome liquidity gaps and trust deficits. By implementing
+                offering solutions such as factoring and receivables management
+                to small and medium-sized enterprises (MSMEs) in order to help
+                them overcome liquidity gaps and trust deficits. By implementing
                 Credore&apos;s solutions, businesses can improve their profits
                 and reduce paperwork, while also making cross-border financing
                 more accessible.
@@ -35,21 +35,33 @@ const AboutDetails = () => {
                 and accessible for all parties involved.
               </p>
             </div>
-            <div>
-              {/* <button type="button" className="btn-primary learn-more">
-                Read More
-              </button> */}
-            </div>
+
+            {/* <div className="mb-6 text-[#29564b font-medium text-sm">
+              <p className="mb-2">
+                Discover how Credore transforms financial supply chain
+                management through its innovative platform.
+              </p>
+              <p>
+                Here's a step-by-step breakdown of how we empower businesses:
+              </p>
+            </div> */}
+            
           </div>
         </div>
 
-        <div className="px-10 py-5 max-w-4xl min-h-screen">
+        <div>
+          <div className="detailSecBx p-5 w-full">
+            <Image src={HowCredoreHelps} alt="" />
+          </div>
+        </div>
+
+        {/* <div className="px-10 py-5 max-w-4xl min-h-screen">
           <iframe
             src="https://www.youtube.com/embed/VtplLPDcI88"
             title="YouTube video player"
             className="aboutCredore"
           ></iframe>
-        </div>
+        </div> */}
       </div>
     </section>
   );

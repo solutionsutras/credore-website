@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Form from "./RequestModal";
+import { menuList } from "../constants/menuList";
 
 const WhyCredore = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [display, setDisplay] = useState("none");
 
   function closeModal() {
     setIsOpen(false);
@@ -13,6 +15,20 @@ const WhyCredore = () => {
   function openModal() {
     setIsOpen(true);
   }
+
+  const handleOfferingsClick = () => {
+    if (display == "none") {
+      setDisplay("block");
+    } else {
+      setDisplay("none");
+    }
+  };
+
+  const handleOfferingsBlur = () => {
+    if (display == "block") {
+      setDisplay("none");
+    }
+  };
 
   return (
     <>
@@ -51,34 +67,62 @@ const WhyCredore = () => {
           <span className="navicon bg-grey-darkest flex items-center relative"></span>
         </label>
 
+        {/* {menuList.map((menu, index) => {
+          return <MenuItems items={menu} key={index} />;
+        })} */}
+
         <ul className="menu flex justify-end list-reset m-0 w-full md:w-auto items-center text-sm">
           <li className="">
-            <Link href="/about_us">
-              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
+            {/* <Link href="/about_us"> */}
+            <Link href="/work_in_progress">
+              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
                 About
               </a>
             </Link>
           </li>
 
           <li className="">
-            <Link href="/offerings">
-              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
-                Offerings
-              </a>
-            </Link>
+            <a
+              className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1"
+              onClick={handleOfferingsClick}
+              onMouseEnter={handleOfferingsClick}
+              aria-haspopup="menu"
+            >
+              Offerings
+            </a>
+
+            <ul className="dropdown " style={{ display: display }}>
+              <li className="menu-items">
+                {/* <Link href="/offerings-overview"> */}
+                <Link href="/work_in_progress">
+                  <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
+                    Our Offerings
+                  </a>
+                </Link>
+              </li>
+              <li className="menu-items">
+                {/* <Link href="/our_technology"> */}
+                <Link href="/work_in_progress">
+                  <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
+                    Technology
+                  </a>
+                </Link>
+              </li>
+            </ul>
           </li>
 
-          <li className="">
+          {/* <li className="">
             <Link href="https://docs.credore.xyz/">
-              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
+              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173]">
                 Resources
               </a>
             </Link>
-          </li>
+          </li> */}
 
           <li className="">
-            <Link href="/use_cases">
-              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">
+            {/* <Link href="/use_cases"> */}
+            <Link href="/work_in_progress">
+              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1 br-5">
                 Use Cases
               </a>
             </Link>
