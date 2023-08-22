@@ -73,8 +73,7 @@ const WhyCredore = () => {
 
         <ul className="menu flex justify-end list-reset m-0 w-full md:w-auto items-center text-sm">
           <li className="">
-            {/* <Link href="/about_us"> */}
-            <Link href="/work_in_progress">
+            <Link href="/about_us">
               <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
                 About
               </a>

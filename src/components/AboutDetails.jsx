@@ -21,39 +21,31 @@ const AboutDetails = () => {
                 Credore is a fast growing, blockchain powered fintech company
                 offering solutions such as factoring and receivables management
                 to small and medium-sized enterprises (MSMEs) in order to help
-                them overcome liquidity gaps and trust deficits. By implementing
-                Credore&apos;s solutions, businesses can improve their profits
-                and reduce paperwork, while also making cross-border financing
-                more accessible.
+                them overcome liquidity gaps and trust deficits.
               </p>
+              
               <p>
+                By implementing Credore&apos;s solutions, businesses can improve
+                their profits and reduce paperwork, while also making
+                cross-border financing more accessible.
+              </p>
+              {/* <p>
                 In order to achieve this, Credore utilizes cutting-edge
                 technologies such as e-Invoice PEPPOL standard, LEI (Global
                 Legal Entities Identifier) and ICC Digital Standard Initiative.
                 These digital tools enable Credore to increase efficiency and
                 trust in the trade finance process, making it more collaborative
                 and accessible for all parties involved.
-              </p>
+              </p> */}
             </div>
-
-            {/* <div className="mb-6 text-[#29564b font-medium text-sm">
-              <p className="mb-2">
-                Discover how Credore transforms financial supply chain
-                management through its innovative platform.
-              </p>
-              <p>
-                Here's a step-by-step breakdown of how we empower businesses:
-              </p>
-            </div> */}
-            
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <div className="detailSecBx p-5 w-full">
             <Image src={HowCredoreHelps} alt="" />
           </div>
-        </div>
+        </div> */}
 
         {/* <div className="px-10 py-5 max-w-4xl min-h-screen">
           <iframe

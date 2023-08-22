@@ -8,6 +8,7 @@ import AboutDetails from "../components/AboutDetails";
 import Team from "../components/Team";
 import Community from "../components/Community";
 import Footer from "../components/Footer";
+import CredoreSteps from "../components/CredoreSteps";
 
 const about_us = () => {
   return (
@@ -47,16 +48,14 @@ const about_us = () => {
           </div>
         </div>
       </section>
-      {/* <LazyShow>
-        <FactsnFigures />
-      </LazyShow> */}
+      
       <LazyShow>
         <AboutDetails />
       </LazyShow>
       
-      {/* <LazyShow>
-        <Offerings />
-      </LazyShow> */}
+      <LazyShow>
+        <CredoreSteps />
+      </LazyShow>
       
       <LazyShow>
         <Team />
