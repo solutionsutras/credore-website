@@ -268,8 +268,8 @@ const CredoreSteps = () => {
 
         <div className="p-5">
           <p className="font-medium">
-            With Credore, you're not just managing your financial supply chain;
-            you're elevating it to new heights of efficiency, security, and
+            With Credore, you&apos;re not just managing your financial supply chain;
+            you&apos;re elevating it to new heights of efficiency, security, and
             growth.
           </p>
           <p className="font-medium">
