@@ -14,7 +14,6 @@ import { FaStaylinked } from "react-icons/fa";
 import { PiCubeTransparentFill } from "react-icons/pi";
 import { RiGlobalFill } from "react-icons/ri";
 import { TbAugmentedReality } from "react-icons/tb";
-// import {Modal} from 'flowbite-react'
 
 const CredoreSteps = () => {
   const [display6, setDisplay6] = useState("none");
@@ -39,7 +38,7 @@ const CredoreSteps = () => {
             through its innovative platform.
           </h1>
           <p className="font-medium">
-            Here's a step-by-step breakdown of how we empower businesses:
+            Here&apos;s a step-by-step breakdown of how we empower businesses:
           </p>
         </div>
 
@@ -183,7 +182,7 @@ const CredoreSteps = () => {
                     >
                       <p className="text-gray-700 text-xsm font-normal">
                         Built using cutting-edge technologies such as public
-                        blockchain and zero knowledge proof, Credore's platform
+                        blockchain and zero knowledge proof, Credore&apos;s platform
                         takes advantage of the immutability...{' '}
                         <a onClick={handleDisplay6} className="cursor-pointer">
                           more
@@ -199,7 +198,7 @@ const CredoreSteps = () => {
                       </a>
                       <p className="text-gray-700 text-xsm font-normal">
                         Built using cutting-edge technologies such as public
-                        blockchain and zero knowledge proof, Credore's platform
+                        blockchain and zero knowledge proof, Credore&apos;s platform
                         takes advantage of the immutability and transparency of
                         Ethereum Virtual Machine based blockchains. Zero
                         knowledge proof ensures data confidentiality while
