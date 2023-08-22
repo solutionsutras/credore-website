@@ -30,14 +30,14 @@ const CredoreSteps = () => {
   };
 
   return (
-    <section className="section section-padded steps-bg" id="about-us">
+    <section className="section steps-bg" id="about-us">
       <div className="container">
         <div className="p-5">
-          <h1 className="text-[#29564b] text-lg font-medium mb-4">
+          <h1 className="text-[#29564b] text-sm font-medium mb-4">
             Discover how Credore transforms financial supply chain management
             through its innovative platform.
           </h1>
-          <p className="font-medium">
+          <p className="font-medium text-sm">
             Here&apos;s a step-by-step breakdown of how we empower businesses:
           </p>
         </div>
@@ -47,7 +47,7 @@ const CredoreSteps = () => {
             {/* step 1 */}
             <div className="flex flex-col">
               <h5 className="p-1 text-gray-700 text-sm">
-              1 - Streamlined Verification
+                1 - Streamlined Verification
               </h5>
               <div className="flex gap-1 items-center">
                 <div className="shape shape1 flex items-center">
@@ -70,7 +70,7 @@ const CredoreSteps = () => {
             {/* step 2 */}
             <div className="flex flex-col">
               <h5 className="p-1 text-gray-700 text-sm">
-              2 - Effortless Financing
+                2 - Effortless Financing
               </h5>
               <div className="flex gap-1 items-center">
                 <div className="shape shape1 flex items-center">
@@ -93,7 +93,7 @@ const CredoreSteps = () => {
             {/* step 3 */}
             <div className="flex flex-col">
               <h5 className="p-1 text-gray-700 text-sm">
-              3 - Enhanced Risk Mitigation
+                3 - Enhanced Risk Mitigation
               </h5>
               <div className="flex gap-1 items-center">
                 <div className="shape shape2 flex items-center">
@@ -116,7 +116,9 @@ const CredoreSteps = () => {
 
             {/* step 4 */}
             <div className="flex flex-col">
-              <h5 className="p-1 text-gray-700 text-sm">4 - Real-Time Insights</h5>
+              <h5 className="p-1 text-gray-700 text-sm">
+                4 - Real-Time Insights
+              </h5>
               <div className="flex gap-1 items-center">
                 <div className="shape shape2 flex items-center">
                   <div className="shape-bg1">
@@ -144,7 +146,9 @@ const CredoreSteps = () => {
           <div className="flex flex-col gap-5 w-full">
             {/* step 5 */}
             <div className="flex flex-col">
-              <h5 className="p-1 text-gray-700 text-sm">5 - Efficient Workflow</h5>
+              <h5 className="p-1 text-gray-700 text-sm">
+                5 - Efficient Workflow
+              </h5>
               <div className="flex gap-1 items-center">
                 <div className="shape shape3 flex items-center">
                   <div className="shape-bg1">
@@ -167,7 +171,7 @@ const CredoreSteps = () => {
             {/* step 6 */}
             <div className="flex flex-col">
               <h5 className="p-1 text-gray-700 text-sm">
-              6 - Blockchain-Powered Trust
+                6 - Blockchain-Powered Trust
               </h5>
               <div className="flex gap-1 items-center">
                 <div className="shape shape3 flex items-center">
@@ -182,14 +186,17 @@ const CredoreSteps = () => {
                     >
                       <p className="text-gray-700 text-xsm font-normal">
                         Built using cutting-edge technologies such as public
-                        blockchain and zero knowledge proof, Credore&apos;s platform
-                        takes advantage of the immutability...{' '}
+                        blockchain and zero knowledge proof, Credore&apos;s
+                        platform takes advantage of the immutability...{" "}
                         <a onClick={handleDisplay6} className="cursor-pointer">
                           more
                         </a>
                       </p>
                     </div>
-                    <div className="px-1 relative" style={{ display: display6 }}>
+                    <div
+                      className="px-1 relative"
+                      style={{ display: display6 }}
+                    >
                       <a
                         onClick={handleDisplay6}
                         className="text-xsm py-1 px-2 relative bottom-[50%] left-[92%] rounded-lg border-1 cursor-pointer bg-white"
@@ -198,13 +205,14 @@ const CredoreSteps = () => {
                       </a>
                       <p className="text-gray-700 text-xsm font-normal">
                         Built using cutting-edge technologies such as public
-                        blockchain and zero knowledge proof, Credore&apos;s platform
-                        takes advantage of the immutability and transparency of
-                        Ethereum Virtual Machine based blockchains. Zero
-                        knowledge proof ensures data confidentiality while
-                        maintaining full document integrity, enabling you to
-                        create, sign, and manage agreements, negotiable
-                        instruments, and other documents digitally.
+                        blockchain and zero knowledge proof, Credore&apos;s
+                        platform takes advantage of the immutability and
+                        transparency of Ethereum Virtual Machine based
+                        blockchains. Zero knowledge proof ensures data
+                        confidentiality while maintaining full document
+                        integrity, enabling you to create, sign, and manage
+                        agreements, negotiable instruments, and other documents
+                        digitally.
                       </p>
                     </div>
                   </div>
@@ -236,7 +244,7 @@ const CredoreSteps = () => {
             {/* step 8 */}
             <div className="flex flex-col">
               <h5 className="p-1 text-gray-700 text-sm">
-              8 - Transparent Interactions
+                8 - Transparent Interactions
               </h5>
               <div className="flex gap-1 items-center">
                 <div className="shape shape4 flex items-center">
@@ -256,6 +264,18 @@ const CredoreSteps = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="p-5">
+          <p className="font-medium">
+            With Credore, you're not just managing your financial supply chain;
+            you're elevating it to new heights of efficiency, security, and
+            growth.
+          </p>
+          <p className="font-medium">
+            Ready to experience the power of Credore? Explore our features or
+            contact us for a personalised demo.
+          </p>
         </div>
       </div>
     </section>

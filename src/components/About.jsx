@@ -3,6 +3,7 @@ import VideoSection from "./VideoSection";
 import Link from "next/link";
 import Image from "next/image";
 import HowCredoreHelps from "../../public/assets/images/how-credore-helps.png";
+import CredoreSteps from "./CredoreSteps";
 
 const About = () => {
   return (
@@ -13,24 +14,28 @@ const About = () => {
             <div className="p-5 pl-0">
               <h1>How Credore Helps</h1>
             </div>
-            <div className="heading">
+            {/* <div className="heading">
               Transforming Financial Supply Chain Management: Unlocking
               Verifiable Trust with Credore
-            </div>
+            </div> */}
             <div className="detailTxt">
               <p>
-                Credore is a fast growing, blockchain powered fintech company
-                which is dedicated to promoting inclusivity, collaboration, and
-                digitization in the field of trade finance. <br></br>
+                Credore is a trailblazing force in the realm of trade finance,
+                dedicated to revolutionizing global commerce through
+                cutting-edge technology. With a strong commitment to
+                sustainability, Credore has harnessed the power of public
+                blockchain, W3C Verifiable Credentials, and privacy-preserving
+                zero-knowledge proof technology. By digitizing trade processes,
+                Credore is not only streamlining transactions but also
+                catalyzing a paradigm shift towards trust, transparency, and
+                efficiency. From empowering small enterprises to redefining the
+                standards of trade, Credore&apos;s innovative solutions are
+                driving a more inclusive, prosperous, and sustainable future for
+                international trade.
               </p>
-              <p>
-                Credore offers solutions such as factoring and receivables
-                management to small and medium-sized enterprises (MSMEs) in
-                order to help them overcome liquidity gaps and trust deficits.
-                By implementing Credore&apos;s solutions, businesses can improve
-                their profits and reduce paperwork, while also making
-                cross-border financing more accessible.
-              </p>
+            </div>
+            <div className="container">
+              <CredoreSteps />
             </div>
             <div>
               <Link href="/about_us">
@@ -52,11 +57,11 @@ const About = () => {
             </div>
           </div> */}
         </div>
-        <div>
+        {/* <div>
           <div className="detailSecBx p-5 w-full">
             <Image src={HowCredoreHelps} alt="" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

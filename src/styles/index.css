@@ -7303,9 +7303,9 @@ html {
   margin-bottom: 15px;
   font-weight: 500;
 }
-.detailSectn .detailTxt {
+/* .detailSectn .detailTxt {
   margin-bottom: 1.5rem;
-}
+} */
 .detailSectn .detailTxt p {
   color: #29564b;
   font-size: large;
