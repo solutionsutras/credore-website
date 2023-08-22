@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { FaLinkedin, FaGithub, FaDiscord, FaYoutube, FaTwitter } from "react-icons/fa";
 
 const Community = () => {
