@@ -267,12 +267,12 @@ const CredoreSteps = () => {
         </div>
 
         <div className="p-5">
-          <p className="font-medium">
+          <p className="font-medium text-sm">
             With Credore, you&apos;re not just managing your financial supply chain;
             you&apos;re elevating it to new heights of efficiency, security, and
             growth.
           </p>
-          <p className="font-medium">
+          <p className="font-medium text-sm">
             Ready to experience the power of Credore? Explore our features or
             contact us for a personalised demo.
           </p>
