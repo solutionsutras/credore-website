@@ -272,7 +272,7 @@ const CredoreSteps = () => {
             you&apos;re elevating it to new heights of efficiency, security, and
             growth.
           </p><br></br>
-          <p className="font-medium text-sm mt-5">
+          <p className="font-medium text-sm">
             Ready to experience the power of Credore? Explore our features or
             contact us for a personalised demo.
           </p>
