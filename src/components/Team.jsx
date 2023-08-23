@@ -22,7 +22,7 @@ const Team = () => {
   // );
   return (
     <section className="bg-white dark:bg-gray-900">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+      <div className="py-4 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-3 ">
         <div className="mx-auto max-w-screen-sm text-center mb-3 lg:mb-5">
           <h2 className="mb-4 text-4xl tracking-tight font-bold dark:text-white">
             Our Team

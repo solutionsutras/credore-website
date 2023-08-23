@@ -8152,7 +8152,7 @@ button span {
 .steps-bg{
   background-image: url("../../public/assets/images/about/steps-bg.png");
   /* background-image: url("../../public/assets/images/about/blockchain-1.avif"); */
-  background-position: top;
+  background-position: center;
   background-size: cover;
 }
 .shape {
