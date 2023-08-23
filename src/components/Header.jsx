@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Form from "./RequestModal";
 import { menuList } from "../constants/menuList";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 const WhyCredore = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -74,35 +75,36 @@ const WhyCredore = () => {
         <ul className="menu flex justify-end list-reset m-0 w-full md:w-auto items-center text-sm">
           <li className="">
             <Link href="/about_us">
-              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
-                About
+              <a className="block md:inline-block px-4 py-2 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
+                How Credore Helps?
               </a>
             </Link>
           </li>
 
           <li className="">
             <a
-              className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1"
+              className="block md:inline-block px-4 py-2 pr-1 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1"
               onClick={handleOfferingsClick}
               onMouseEnter={handleOfferingsClick}
               aria-haspopup="menu"
             >
-              Offerings
+              Our Offerings
+            {/* <MdKeyboardArrowDown size={24} /> */}
             </a>
 
             <ul className="dropdown " style={{ display: display }}>
               <li className="menu-items">
                 {/* <Link href="/offerings-overview"> */}
                 <Link href="/work_in_progress">
-                  <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
-                    Our Offerings
+                  <a className="block md:inline-block px-4 py-2 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
+                    Overview
                   </a>
                 </Link>
               </li>
               <li className="menu-items">
                 {/* <Link href="/our_technology"> */}
                 <Link href="/work_in_progress">
-                  <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
+                  <a className="block md:inline-block px-4 py-2 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
                     Technology
                   </a>
                 </Link>
@@ -121,7 +123,7 @@ const WhyCredore = () => {
           <li className="">
             {/* <Link href="/use_cases"> */}
             <Link href="/work_in_progress">
-              <a className="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1 br-5">
+              <a className="block md:inline-block px-4 py-2 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1 br-5">
                 Use Cases
               </a>
             </Link>

@@ -49,17 +49,7 @@ const CredoreSteps = () => {
   return (
     <section className="section steps-bg" id="about-us">
       <div className="container">
-        <div className="p-5">
-          <h1 className="text-[#29564b] text-sm font-medium mb-4">
-            Discover how Credore transforms financial supply chain management
-            through its innovative platform.
-          </h1>
-          <p className="font-medium text-sm">
-            Here&apos;s a step-by-step breakdown of how we empower businesses:
-          </p>
-        </div>
-
-        <div className="flex gap-1 items-center">
+        <div className="flex gap-1 items-center p-5 ">
           <div className="flex flex-col gap-5 w-full">
             {/* step 1 */}
             <div className="flex flex-col">

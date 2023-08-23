@@ -16,6 +16,7 @@ const AboutDetails = () => {
               Transforming Financial SupplyChain Management: Unlocking
               Verifiable Trust with Credore
             </div> */}
+
             <div className="detailTxt">
               <p>
                 Credore is a trailblazing force in the realm of trade finance,
@@ -27,20 +28,28 @@ const AboutDetails = () => {
                 Credore is not only streamlining transactions but also
                 catalyzing a paradigm shift towards trust, transparency, and
                 efficiency. From empowering small enterprises to redefining the
-                standards of trade, Credore&apos;s innovative solutions are driving a
-                more inclusive, prosperous, and sustainable future for
+                standards of trade, Credore&apos;s innovative solutions are
+                driving a more inclusive, prosperous, and sustainable future for
                 international trade.
               </p>
 
-              <p>
+              {/* <p>
                 By implementing Credore&apos;s solutions, businesses can improve
                 their profits and reduce paperwork, while also making
                 cross-border financing more accessible.
+              </p> */}
+
+              <p className="font-medium text-sm">
+                Discover how Credore transforms financial supply chain
+                management through its innovative platform.
+              </p>
+              <p className="font-medium text-sm">
+                Here&apos;s a step-by-step breakdown of how we empower
+                businesses:
               </p>
             </div>
           </div>
         </div>
-        
       </div>
     </section>
   );

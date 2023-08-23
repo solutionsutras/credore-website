@@ -14,6 +14,7 @@ const About = () => {
             <div className="p-5 pl-0">
               <h1>How Credore Helps</h1>
             </div>
+            
             {/* <div className="heading">
               Transforming Financial Supply Chain Management: Unlocking
               Verifiable Trust with Credore
@@ -33,17 +34,26 @@ const About = () => {
                 driving a more inclusive, prosperous, and sustainable future for
                 international trade.
               </p>
+
+              <p className="font-medium text-sm">
+                Discover how Credore transforms financial supply chain
+                management through its innovative platform.
+              </p>
+              <p className="font-medium text-sm">
+                Here&apos;s a step-by-step breakdown of how we empower
+                businesses:
+              </p>
             </div>
             <div className="container">
               <CredoreSteps />
             </div>
-            <div>
+            {/* <div>
               <Link href="/about_us">
                 <button type="button" className="btn-primary learn-more">
                   Read More
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
 
           {/* <div className="detailSecBx p-5 w-2/5">

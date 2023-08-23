@@ -7310,7 +7310,8 @@ html {
   color: #29564b;
   font-size: large;
   font-weight: 500;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  line-height:32px;
 }
 .detailSectn .learn-more {
   padding: 0 18px;
