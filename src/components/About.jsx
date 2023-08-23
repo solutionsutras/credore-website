@@ -20,7 +20,7 @@ const About = () => {
               Verifiable Trust with Credore
             </div> */}
             <div className="detailTxt">
-              <p>
+              <p className="font-normal text-base">
                 Credore is a trailblazing force in the realm of trade finance,
                 dedicated to revolutionizing global commerce through
                 cutting-edge technology. With a strong commitment to

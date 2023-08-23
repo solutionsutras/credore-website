@@ -18,7 +18,7 @@ const AboutDetails = () => {
             </div> */}
 
             <div className="detailTxt">
-              <p>
+            <p className="font-normal text-base">
                 Credore is a trailblazing force in the realm of trade finance,
                 dedicated to revolutionizing global commerce through
                 cutting-edge technology. With a strong commitment to
@@ -39,7 +39,7 @@ const AboutDetails = () => {
                 cross-border financing more accessible.
               </p> */}
 
-              <p className="font-medium text-sm">
+              <p className="font-normal text-base">
                 Discover how Credore transforms financial supply chain
                 management through its innovative platform.
               </p>

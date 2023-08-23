@@ -7308,8 +7308,8 @@ html {
 } */
 .detailSectn .detailTxt p {
   color: #29564b;
-  font-size: large;
-  font-weight: 500;
+  /* font-size: large;
+  font-weight: 500; */
   margin-bottom: 1rem;
   line-height:32px;
 }

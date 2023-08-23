@@ -18,7 +18,7 @@ const solutions = () => {
     <div className="bg-background">
       <Head>
         <title>
-        Our Offerings - Revolutionary Fintech Transforming Financial Supply Chain
+        Offerings Overview - Revolutionary Fintech Transforming Financial Supply Chain
           Management with Blockchain Technology
         </title>
       </Head>
@@ -28,7 +28,7 @@ const solutions = () => {
           <div className="homeBannerSection">
             <div className="banner-details">
               <h1 className="hero-heading font-medium text-[#f15928] text-[#f15928] text-4xl">
-                Our Offerings
+                Offerings Overview
               </h1>
             </div>
           </div>

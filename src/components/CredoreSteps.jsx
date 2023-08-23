@@ -274,13 +274,13 @@ const CredoreSteps = () => {
         </div>
 
         <div className="p-5">
-          <p className="font-medium text-sm">
+          <p className="font-normal text-base">
             With Credore, you&apos;re not just managing your financial supply
             chain; you&apos;re elevating it to new heights of efficiency,
             security, and growth.
           </p>
           <br></br>
-          <p className="font-medium text-sm">
+          <div className="font-normal text-base">
             Ready to experience the power of Credore? Explore our{" "}
             <a
               onClick={navigateFeatures}
@@ -296,7 +296,7 @@ const CredoreSteps = () => {
               contact us
             </a>{" "}
             for a personalised demo.
-          </p>
+          </div>
         </div>
       </div>
       <Form isOpen={isOpen} closeModal={closeModal} openModal={openModal} />

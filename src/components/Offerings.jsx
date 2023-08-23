@@ -17,7 +17,7 @@ const Offerings = () => {
             <div className="m-10">
               {/* <h1>Credore&apos;s Offerings</h1> */}
             </div>
-            <div className="text-xl mb-10 font-normal">
+            <div className="mb-10 font-normal">
               We offer blockchain-based IT infrastructure, incorporating common
               standards and best practices, aims to ensure that every digital
               interaction within financial supply chain management transactions
