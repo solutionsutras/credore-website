@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import VideoSection from "./VideoSection";
+import Form from "./RequestModal";
 import Image from "next/image";
 // import CenterImg from "../../public/assets/images/about/center-image.png";
 // import Step1 from "../../public/assets/images/about/step1.png";
@@ -14,10 +15,21 @@ import { FaStaylinked } from "react-icons/fa";
 import { PiCubeTransparentFill } from "react-icons/pi";
 import { RiGlobalFill } from "react-icons/ri";
 import { TbAugmentedReality } from "react-icons/tb";
+import { useRouter } from 'next/router';
 
 const CredoreSteps = () => {
+  const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
   const [display6, setDisplay6] = useState("none");
   const [notDisplay6, setNotDisplay6] = useState("block");
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+  function openModal() {
+    setIsOpen(true);
+  }
 
   const handleDisplay6 = () => {
     if (display6 == "none") {
@@ -28,6 +40,11 @@ const CredoreSteps = () => {
       setNotDisplay6("block");
     }
   };
+
+  const navigateFeatures = () =>{
+    // router.push('/our_technology');
+    router.push('/work_in_progress');
+  }
 
   return (
     <section className="section steps-bg" id="about-us">
@@ -42,7 +59,7 @@ const CredoreSteps = () => {
           </p>
         </div>
 
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-1 items-center">
           <div className="flex flex-col gap-5 w-full">
             {/* step 1 */}
             <div className="flex flex-col">
@@ -139,7 +156,7 @@ const CredoreSteps = () => {
             </div>
           </div>
 
-          <div className="items-center w-1/3">
+          <div className="items-center w-1/4">
             {/* <Image src={CenterImg} alt="" /> */}
           </div>
 
@@ -268,16 +285,31 @@ const CredoreSteps = () => {
 
         <div className="p-5">
           <p className="font-medium text-sm">
-            With Credore, you&apos;re not just managing your financial supply chain;
-            you&apos;re elevating it to new heights of efficiency, security, and
-            growth.
-          </p><br></br>
+            With Credore, you&apos;re not just managing your financial supply
+            chain; you&apos;re elevating it to new heights of efficiency,
+            security, and growth.
+          </p>
+          <br></br>
           <p className="font-medium text-sm">
-            Ready to experience the power of Credore? Explore our features or
-            contact us for a personalised demo.
+            Ready to experience the power of Credore? Explore our{" "}
+            <a
+              onClick={navigateFeatures}
+              className="italic font-medium text-blue-600 cursor-pointer underline"
+            >
+              features
+            </a>{" "}
+            or{" "}
+            <a
+              onClick={openModal}
+              className="italic font-medium text-blue-600 cursor-pointer underline"
+            >
+              contact us
+            </a>{" "}
+            for a personalised demo.
           </p>
         </div>
       </div>
+      <Form isOpen={isOpen} closeModal={closeModal} openModal={openModal} />
     </section>
   );
 };

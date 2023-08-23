@@ -78,7 +78,7 @@ const Contact = () => {
   });
 
   return (
-    <section className="section contact-section">
+    <section className="section contact-section" id="contact">
       <div className="container">
         <div className="p-5">
           <div className="p-5 pl-0 text-center pb-10">

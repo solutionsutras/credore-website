@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import TheTeam from "../../public/assets/images/team/the-team.png";
 import Avtar from "../../public/assets/images/team/avtar.jpg";
-import Harshit from "../../public/assets/images/team/harshit-jain.jpg";
+import Harshit from "../../public/assets/images/team/harshit.jpg"
 import Lingraj from "../../public/assets/images/team/lingraj.jpg";
 // import Step1 from "../../public/assets/images/about/step1.png";
 
@@ -23,8 +23,8 @@ const Team = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
-        <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <div className="mx-auto max-w-screen-sm text-center mb-3 lg:mb-5">
+          <h2 className="mb-4 text-4xl tracking-tight font-bold dark:text-white">
             Our Team
           </h2>
           {/* <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
@@ -36,7 +36,7 @@ const Team = () => {
           <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
-                classNamename="w-full rounded-md sm:rounded-none sm:rounded-l-lg"
+                className="w-full rounded-md sm:rounded-none sm:rounded-l-lg"
                 src={Harshit}
                 alt="Harshit Jain"
               />
@@ -58,7 +58,7 @@ const Team = () => {
           <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
-                classNamename="w-full rounded-md sm:rounded-none sm:rounded-l-lg"
+                className="w-full rounded-md sm:rounded-none sm:rounded-l-lg"
                 src={Lingraj}
                 alt="Lingraj Mahanand"
               />
@@ -80,7 +80,7 @@ const Team = () => {
           <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700 ">
             <a href="#">
               <Image
-                classNamename="rounded-md sm:rounded-none sm:rounded-l-lg"
+                className="rounded-md sm:rounded-none sm:rounded-l-lg"
                 src={Avtar}
                 height={136}
                 width={136}
@@ -103,7 +103,7 @@ const Team = () => {
           <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
-                classNamename="w-full rounded-md sm:rounded-none sm:rounded-l-lg"
+                className="w-full rounded-md sm:rounded-none sm:rounded-l-lg"
                 src={Avtar}
                 alt="Aditi Mishra"
                 height={136}
