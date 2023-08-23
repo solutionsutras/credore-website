@@ -17,7 +17,7 @@ const FactsnFigures = () => {
               <div className="w-full">
                 <label className="text-xsm text-[#f15928] leading-[0.5rem] font-bold">
                   {/* Deduplication of Invoices and Negotiable Documents */}
-                  Deduplication of Invoices and Documents
+                  Deduplication of Invoices and Transactions
                 </label>
               </div>
             </div>
