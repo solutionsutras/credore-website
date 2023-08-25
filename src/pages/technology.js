@@ -1,24 +1,17 @@
 import React from "react";
 import Head from "next/head";
-import About from "../components/About";
 import Community from "../components/Community";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import LazyShow from "../components/LazyShow";
-import MainHero from "../components/MainHero";
-import FactsnFigures from "../components/FactsnFigures";
-import MainSlider from "../components/MainSlider";
-import Solutions from "../components/Solutions";
-import WhyCredore from "../components/WhyCredore";
-import Offerings from "../components/Offerings";
-import AboutDetails from "../components/AboutDetails";
+import Technology from "../components/Technology";
 
-const solutions = () => {
+const technology = () => {
   return (
     <div className="bg-background">
       <Head>
         <title>
-        Our Offerings - Revolutionary Fintech Transforming Financial Supply Chain
+        Offerings Overview - Revolutionary Fintech Transforming Financial Supply Chain
           Management with Blockchain Technology
         </title>
       </Head>
@@ -28,7 +21,7 @@ const solutions = () => {
           <div className="homeBannerSection">
             <div className="banner-details">
               <h1 className="hero-heading font-medium text-[#f15928] text-[#f15928] text-4xl">
-                Our Offerings
+                Our Technology
               </h1>
             </div>
           </div>
@@ -40,7 +33,7 @@ const solutions = () => {
       </LazyShow> */}
 
       <LazyShow>
-        <Offerings />
+        <Technology />
       </LazyShow>
 
       <LazyShow>
@@ -54,4 +47,4 @@ const solutions = () => {
   );
 };
 
-export default solutions;
+export default technology;

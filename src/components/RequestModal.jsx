@@ -264,12 +264,21 @@ export default function MyModal({ isOpen, closeModal }) {
                 leaveTo="opacity-0 scale-95"
               >
                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                  <Dialog.Title
-                    as="h3"
-                    className="text-xl font-medium leading-6 text-gray-900 mb-5 pb-2 border-b"
-                  >
-                    Request Demo
-                  </Dialog.Title>
+                  <div className="flex mb-5 pb-2 items-center border-b justify-between">
+                    <Dialog.Title
+                      as="h3"
+                      className="text-xl font-medium leading-6 text-gray-900"
+                    >
+                      Request Demo
+                    </Dialog.Title>
+                    <button
+                      type="button"
+                      className="rounded-md border border-gray-300 bg-blue-100 px-3 py-1 font-medium text-sm font-medium text-white-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                      onClick={closeModal}
+                    >
+                      X
+                    </button>
+                  </div>
                   <div className="mt-2">
                     <Home />
                   </div>
