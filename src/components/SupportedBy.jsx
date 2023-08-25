@@ -18,7 +18,8 @@ const SupportedBy = () => {
             <div className="flex items-center border-1">
               <div className="px-2 border-r-2 border-grey-100 cursor-pointer">
                 <Link href="https://www.padup.in/fop">
-                  <Image src={PadUp} width={310} height={140} alt="Padup Ventures" />
+                  {/* <Image src={PadUp} width={310} height={140} alt="Padup Ventures" /> */}
+                  <Image src={PadUp} alt="Padup Ventures" />
                 </Link>
               </div>
               <div className="px-2 border-l-2 border-grey-100 cursor-pointer">

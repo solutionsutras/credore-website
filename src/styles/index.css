@@ -238,9 +238,9 @@ p {
 a.button,
 button {
   background: none;
-  border: 1px solid #29564b;
+  /* border: 1px solid #29564b; */
   border-radius: 5px;
-  color: #29564b;
+  /* color: #29564b; */
   cursor: pointer;
   display: inline-block;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
@@ -6940,7 +6940,7 @@ html {
 
 .section {
   padding: 0px 0px 60px;
-  background-color: #fff;
+  /* background-color: #fff; */
   background-position: center;
 }
 .section-padded {
@@ -7092,11 +7092,12 @@ html {
   flex-direction: column;
 }
 .banner-details .hero-heading {
+  font-size:42px;
   margin-bottom: 15px;
-  /* max-width: 470px; */
   line-height: revert;
-  /* color: #000; */
   color: #24554a;
+  /* max-width: 470px; */
+  /* color: #000; */
   /* color:#9d2701; */
   /* text-transform: capitalize; */
 }
@@ -7110,6 +7111,7 @@ html {
 }
 .banner-details .hero-heading span {
   /* color: #f15928; */
+  font-size:42px;
   color: #9d2701;
   font-style: italic;
 }

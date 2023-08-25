@@ -94,16 +94,14 @@ const WhyCredore = () => {
 
             <ul className="dropdown " style={{ display: display }}>
               <li className="menu-items">
-                {/* <Link href="/offerings-overview"> */}
-                <Link href="/work_in_progress">
+                <Link href="/offerings_overview">
                   <a className="block md:inline-block px-4 py-2 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
                     Overview
                   </a>
                 </Link>
               </li>
               <li className="menu-items">
-                {/* <Link href="/our_technology"> */}
-                <Link href="/work_in_progress">
+                <Link href="/technology">
                   <a className="block md:inline-block px-4 py-2 no-underline text-grey-darkest hover:bg-[#0B9173] br-5 hover:text-white hover:underline-offset-0 cursor-pointer b-1">
                     Technology
                   </a>
@@ -130,7 +128,7 @@ const WhyCredore = () => {
           </li>
           <li className="">
             <button
-              className="ml-3 p-4 py-1 text-sm flex-shrink-0 text-white bg-[#f15928] font-medium text-xsm rounded-sm"
+              className="ml-3 p-4 py-1 text-sm flex-shrink-0 text-white bg-[#f15928] font-medium text-xsm rounded-sm border-1 border-gray-300"
               type="button"
               onClick={openModal}
             >

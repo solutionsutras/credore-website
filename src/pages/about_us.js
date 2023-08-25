@@ -9,6 +9,7 @@ import Team from "../components/Team";
 import Community from "../components/Community";
 import Footer from "../components/Footer";
 import CredoreSteps from "../components/CredoreSteps";
+import SupportedBy from "../components/SupportedBy";
 
 const about_us = () => {
   return (
@@ -59,6 +60,10 @@ const about_us = () => {
       
       <LazyShow>
         <Team />
+      </LazyShow>
+
+      <LazyShow>
+        <SupportedBy />
       </LazyShow>
 
       <LazyShow>

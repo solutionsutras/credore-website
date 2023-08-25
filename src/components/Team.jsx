@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import TheTeam from "../../public/assets/images/team/the-team.png";
 import Avtar from "../../public/assets/images/team/avtar.jpg";
-import Harshit from "../../public/assets/images/team/harshit.jpg"
+import Harshit from "../../public/assets/images/team/harshit.jpg";
 import Lingraj from "../../public/assets/images/team/lingraj.jpg";
 // import Step1 from "../../public/assets/images/about/step1.png";
 
@@ -27,14 +27,10 @@ const Team = () => {
           <h2 className="mb-4 text-4xl tracking-tight font-bold dark:text-white">
             Our Team
           </h2>
-          {/* <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
-            Explore the whole collectionv open-source web components and
-            elements built with the utility classNamees from Tailwind
-          </p> */}
         </div>
         <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
           <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="#" className="px-3">
               <Image
                 className="w-full rounded-md sm:rounded-none sm:rounded-l-lg"
                 src={Harshit}
@@ -56,9 +52,9 @@ const Team = () => {
             </div>
           </div>
           <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="#" className="px-3">
               <Image
-                className="w-full rounded-md sm:rounded-none sm:rounded-l-lg"
+                className="w-full rounded-md sm:rounded-none sm:rounded-l-lg px-3"
                 src={Lingraj}
                 alt="Lingraj Mahanand"
               />
@@ -76,14 +72,16 @@ const Team = () => {
               </p>
             </div>
           </div>
+        </div>
 
-          <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700 ">
-            <a href="#">
+        <div className="flex gap-3 items-center">
+          <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700 w-full">
+            <a href="#" className="p-3">
               <Image
                 className="rounded-md sm:rounded-none sm:rounded-l-lg"
                 src={Avtar}
-                height={136}
-                width={136}
+                height={120}
+                width={120}
                 alt="Ankit Nag"
               />
             </a>
@@ -94,20 +92,16 @@ const Team = () => {
               <span className="text-gray-500 dark:text-gray-400 text-xsm font-medium">
                 Back-end Developer
               </span>
-              {/* <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400 text-sm font-normal">
-                Michael drives the technical strategy of the flowbite platform
-                and brand.
-              </p> */}
             </div>
           </div>
-          <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+          <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700 px-3 w-full">
+            <a href="#" className="p-3">
               <Image
                 className="w-full rounded-md sm:rounded-none sm:rounded-l-lg"
                 src={Avtar}
                 alt="Aditi Mishra"
-                height={136}
-                width={136}
+                height={120}
+                width={120}
               />
             </a>
             <div className="p-5">
@@ -117,14 +111,30 @@ const Team = () => {
               <span className="text-gray-500 dark:text-gray-400 text-xsm font-medium">
                 Back-end Developer
               </span>
-              {/* <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400 text-sm font-normal">
-                Lana drives the technical strategy of the flowbite platform and
-                brand.
-              </p> */}
+            </div>
+          </div>
+
+          <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700 px-3 w-full">
+            <a href="#" className="p-3">
+              <Image
+                className="w-full rounded-md sm:rounded-none sm:rounded-l-lg"
+                src={Avtar}
+                alt="Praduman Singh"
+                height={120}
+                width={120}
+              />
+            </a>
+            <div className="p-5">
+              <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <a href="#">Praduman Singh</a>
+              </h3>
+              <span className="text-gray-500 dark:text-gray-400 text-xsm font-medium">
+                Front-end Developer
+              </span>
             </div>
           </div>
         </div>
-        <div className="items-center bg-gray-50 rounded-md shadow sm:flex dark:bg-gray-800 dark:border-gray-700"></div>
+
       </div>
     </section>
   );
