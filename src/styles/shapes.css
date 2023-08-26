@@ -256,3 +256,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.left-arrow {
+    width: 0;
+    height: 0;
+    border-top: 36px solid transparent;
+    border-right: 64px solid rgb(36 85 74 / 69%);
+    border-bottom: 36px solid transparent;
+    /* border-top: 24px;
+    border-right: 40px;
+    border-bottom: 24px; */
+  }
+  
