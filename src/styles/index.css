@@ -1,4 +1,4 @@
-blockquote,
+/* blockquote,
 body,
 dd,
 dl,
@@ -12,8 +12,8 @@ li,
 ol[class],
 p,
 ul[class] {
-  margin: 0;
-}
+  margin: inherit;
+} */
 b,
 strong {
   font-weight: 700;
