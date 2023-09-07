@@ -73,8 +73,8 @@ const UseCases = () => {
                 <div className="w-full border-[15px] border-[#5D7D72] rounded-lg p-5 m-2 shadow-[-15px_15px_0px_0px_#DC927A] ">
                   <span className="font-bold">Scenario:</span>
                   <p className="font-normal ml-1">
-                    Imagine a small exporting company called "Global Traders
-                    Private Ltd." based in India. Global Traders specializes in
+                    Imagine a small exporting company called &quot;Global Traders
+                    Private Ltd.&quot; based in India. Global Traders specializes in
                     manufacturing and exporting high-quality textiles to buyers
                     around the world. They have recently secured a significant
                     order from a buyer in Europe, but they are facing a
@@ -277,14 +277,14 @@ const UseCases = () => {
             <div className="flex gap-2 p-4">
               <ul className="flex flex-col gap-2">
                 <li>
-                  <p class="font-normal mb-2">
+                  <p className="font-normal mb-2">
                     <b>1. Invoice Submission:</b> Global Traders submits their
                     invoice for the European buyer&apos;s order to
                     Credore&apos;s platform.
                   </p>
                 </li>
                 <li>
-                  <p class="font-normal mb-2">
+                  <p className="font-normal mb-2">
                     <b>2. Verification and Discounting:</b> Credore&apos;s
                     platform verifies the authenticity of the invoice and the
                     buyer&apos;s creditworthiness. Once verified, they offer
@@ -293,7 +293,7 @@ const UseCases = () => {
                   </p>
                 </li>
                 <li>
-                  <p class="font-normal mb-2">
+                  <p className="font-normal mb-2">
                     <b>3. Risk Transfer:</b> In a non-recourse arrangement,
                     Credore assumes the risk of buyer default. This means that
                     if the European buyer doesn&apos;t pay the invoice due to
@@ -302,7 +302,7 @@ const UseCases = () => {
                   </p>
                 </li>
                 <li>
-                  <p class="font-normal mb-2">
+                  <p className="font-normal mb-2">
                     <b>4. Seamless Transaction:</b>** Credore manages the
                     payment collection from the European buyer. They ensure that
                     the transaction is conducted smoothly and transparently,
@@ -317,19 +317,19 @@ const UseCases = () => {
             <h1 className="font-bold text-xl py-2">Benefits:</h1>
 
             <div className="p-4 flex flex-col gap-2">
-              <p class="font-normal mb-2">
+              <p className="font-normal mb-2">
                 1. Global Traders receives the much-needed working capital
                 quickly, allowing them to fulfill the order on time.
               </p>
-              <p class="font-normal mb-2">
+              <p className="font-normal mb-2">
                 2. The non-recourse feature shields Global Traders from the risk
                 of buyer default, providing them financial security.
               </p>
-              <p class="font-normal mb-2">
-                3. Credore's platform offers transparency, security, and
+              <p className="font-normal mb-2">
+                3. Credore&apos;s platform offers transparency, security, and
                 efficiency throughout the factoring process.
               </p>
-              <p class="font-normal mb-2">
+              <p className="font-normal mb-2">
                 4. This arrangement promotes business growth and international
                 trade for companies like Global Traders.
               </p>
